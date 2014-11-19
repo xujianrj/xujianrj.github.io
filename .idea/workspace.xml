@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba0fb7ae-270d-4f6f-8515-1469b2e86613" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/img/3bak.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/f012d90f-f990-4ba5-bdb7-6161110a9277.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/index.html" afterPath="$PROJECT_DIR$/v1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/css/style.css" afterPath="$PROJECT_DIR$/v1/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="xujianrj.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,10 +46,10 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/v1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="36" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.48711342" vertical-offset="321" max-vertical-offset="6930">
+            <state line="440" column="38" selection-start="17769" selection-end="17771" vertical-scroll-proportion="0.33333334" vertical-offset="6479" max-vertical-offset="6930">
               <folding>
-                <marker date="1416366089000" expanded="true" signature="10364:10744" placeholder="..." />
-                <marker date="1416366089000" expanded="true" signature="10698:10723" placeholder="..." />
+                <marker date="1416366497000" expanded="true" signature="10358:10738" placeholder="..." />
+                <marker date="1416366497000" expanded="true" signature="10692:10717" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -175,24 +171,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xujianrj.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xujianrj.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -310,8 +288,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="262" column="38" selection-start="10345" selection-end="10742" vertical-scroll-proportion="0.0" vertical-offset="3771" max-vertical-offset="6930">
           <folding>
-            <marker date="1416366089000" expanded="true" signature="10364:10744" placeholder="..." />
-            <marker date="1416366089000" expanded="true" signature="10698:10723" placeholder="..." />
+            <marker date="1416366497000" expanded="true" signature="10358:10738" placeholder="..." />
+            <marker date="1416366497000" expanded="true" signature="10692:10717" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -381,10 +359,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/v1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="36" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.48711342" vertical-offset="321" max-vertical-offset="6930">
+        <state line="440" column="38" selection-start="17769" selection-end="17771" vertical-scroll-proportion="0.33333334" vertical-offset="6479" max-vertical-offset="6930">
           <folding>
-            <marker date="1416366089000" expanded="true" signature="10364:10744" placeholder="..." />
-            <marker date="1416366089000" expanded="true" signature="10698:10723" placeholder="..." />
+            <marker date="1416366497000" expanded="true" signature="10358:10738" placeholder="..." />
+            <marker date="1416366497000" expanded="true" signature="10692:10717" placeholder="..." />
           </folding>
         </state>
       </provider>
