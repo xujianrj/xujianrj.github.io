@@ -107,11 +107,13 @@ text {
 }
 
 text.parent {
-    fill: #1f77b4;
+    /*fill: #1f77b4;*/
+    fill:#43E488
 }
 
 circle {
-    fill: #ccc;
+    /*fill: #ccc;*/
+    fill:#555;
     stroke: #999;
     pointer-events: all;
 }
