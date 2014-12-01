@@ -821,6 +821,7 @@ float:left;
 }
 
 .blog-post img {
+    width:100%;
 margin-bottom:16px;
 }
 
