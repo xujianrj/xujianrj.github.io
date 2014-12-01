@@ -1,3 +1,6 @@
 [submodule "regulex"]
 	path = regulex
 	url = ../xujianrj.github.io/regulex/
+[submodule "reg"]
+	path = reg
+	url = https://github.com/JexCheng/regulex.git
