@@ -1,0 +1,21 @@
+<header>
+    <!--<h1 style="padding-top: 6px;">-->
+    <h1>名医会
+    <!--<div class="button-grouped flex tabbed" style="margin: 0px;">-->
+        <!--<a class="button pressed" id="btnDiscuss" onclick="MedicalHome.viewController.mingYiHui.selectSectionByIndex(0);">研讨 </a>-->
+        <!--<a class="button" id="btnTopic" onclick="MedicalHome.viewController.mingYiHui.selectSectionByIndex(1);">讲座 </a>-->
+        <!--<a class="button" id="btnMagazine" onclick="MedicalHome.viewController.mingYiHui.selectSectionByIndex(2);;">月刊 </a>-->
+    <!--</div>-->
+    </h1>
+
+    <a class="button icon icon-search" id="mingYiHui_createTopicButton" style="float:right;font-size: 20px;line-height: 20px;top: -2px;"
+       onclick="MedicalHome.viewController.mingYiHui.searchClick();"></a>
+    <!--<a class="button icon icon-add" id="mingYiHui_createTopicButton" style="float:right;font-size: 20px;line-height: 20px;top: -2px;"-->
+       <!--onclick="MedicalHome.viewController.mingYiHui.createTopicButtonClick();"></a>-->
+    <a id="menubadge" onclick="af.ui.toggleSideMenu()" class="menuButton" style="float: right;"></a>
+</header>
+
+
+<div id="topicSection">
+    <ul id="topicList" class="list custom"></ul>
+</div>
