@@ -1,7 +1,8 @@
 $.ui.isAjaxApp = true;
 $.ui.useOSThemes = false;
 $.ui.backButtonText = "返回";
-$.ui.setLeftSideMenuWidth('320px');
+$.ui.animateHeaders = false;
+$.ui.splitview = false; //禁止大于某个分辨率自动展开菜单
 //$.ui.showBackButton = false;
 
 
@@ -13,9 +14,10 @@ $.ui.autoLaunch = true;//Note:true for develop.
 //间隔N秒后，开始launch，这N秒用于显示splashscreen
 var init = function () {
     $.ui.launch();
-    window.setTimeout(function () {
-        navigator.splashscreen.hide();
-    }, 2000);
+
+//    window.setTimeout(function () {
+//        navigator.splashscreen.hide();
+//    }, 1000);
 
 //    window.setTimeout(function () {
 //        $.ui.launch();

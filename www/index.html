@@ -55,28 +55,26 @@
 </head>
 <body>
 <div id="afui" class="ios7">
-    <!--<div id="splashscreen" class='ui-loader heavy'>-->
-    <!--&lt;!&ndash;App Framework&ndash;&gt;-->
-    <!--&lt;!&ndash;<br>&ndash;&gt;-->
-    <!--&lt;!&ndash;<br> <span class='ui-icon ui-icon-loading spin'></span>&ndash;&gt;-->
-    <!--&lt;!&ndash;<h1>Starting app</h1>&ndash;&gt;-->
-    <!--</div>-->
-    <header id="custom_header">
-        <h1>名医会</h1>
-        <a id="menubadge" onclick="af.ui.toggleSideMenu()" class="menuButton" style="float: right;"></a>
-    </header>
-    <header id="custom_header2">
-        <h1>名医会</h1>
+    <header id="common_header">
+        <!--TODO handle the search function-->
+        <a onclick="af.ui.toggleSideMenu()" class="menuButton" style="float: left;"></a>
+
+        <h1><input oninput="searchPatientChange()" id="btnSearchTopic" type="search" placeholder="搜索">
+        </h1>
+        <a class="button icon icon-add" id="global_addButton"
+           style="float:right;font-size: 20px;line-height: 20px;top: 0px;"
+           onclick="MedicalHome.viewController.mingYiHui.searchClick();"></a>
     </header>
     <div id="content">
         <div title="名医会" id="main" class="panel" data-footer='footer' data-tab="navbar_home"
              data-defer="view/mingYiHui.html" data-nav="menu_Sidebar">
         </div>
-        <div title="医脉" id="yimai" class="panel" data-footer='footer' data-tab="navbar_js"
+        <div title="医脉" id="yimai" class="panel" data-footer='footer' data-tab="navbar_js" data-header="common_header"
              data-defer="view/yimai.html" data-nav="menu_yiMaiSidebar">
         </div>
-        <div title="诊所" id="afuidemo" class="panel" data-footer='footer' data-tab="navbar_ui"
-             data-defer="view/zhenSuo.html" data-nav="zhenSuo_Sidebar">
+        <div title="会诊" id="afHuiZhen" class="panel" data-footer='footer' data-tab="navbar_huiZhen"
+             data-header="common_header"
+             data-defer="view/huiZhen.html" data-nav="huiZhen_Sidebar">
         </div>
         <div title="我" id="uiapi" class="panel" data-footer='footer' data-tab="navbar_plugins"
              data-defer="view/me.html">
@@ -90,9 +88,6 @@
         <div title="月刊内容" id="magazineDetails" class="panel" data-footer='post_footer'
              data-defer="view/magazineDetails.html">
         </div>
-        <!--<div title="通讯录" id="contacts" class="panel"-->
-             <!--data-defer="view/contacts.html" data-footer="none">-->
-        <!--</div>-->
         <div title="同事同行" id="workmates" class="panel" data-footer="none">
             <!--data-defer="view/friends.html">-->
             <div id="workmateContainer">
@@ -133,41 +128,15 @@
                 </ul>
             </div>
         </div>
-        <div title="投稿" id="createTopic" class="panel" data-footer='none'>
-            <!--data-defer="view/magazineDetails.html">-->
-            <header>
-                <h1>投稿</h1>
-                <a href="#panel_forum" class="button " onclick="$.ui.goBack();">返回</a>
-                <a onclick="createForumPost();" class="button right" style="float: right;">保存</a>
-            </header>
-            <form>
-                <div class="input-group">
-                    <input id="panel_forum_createpost_title" type="text" placeholder="标题（不超过50字）"/>
-                    <textarea id="panel_forum_createpost_content" rows="15" placeholder="内容"></textarea>
-                </div>
-            </form>
+        <div>
         </div>
-
+        <div title="病历" id="createMedicalRecord" class="panel" data-footer='none'
+             data-defer="view/createMedicalRecord.html">
+        </div>
     </div>
-    <div id="login" class="panel" data-footer="none">
-        <header>
-            <h1>登录</h1>
-        </header>
-        <form>
-            <div class="input-group">
-                <input id="login_cellphone" type="text" value="p1" placeholder="手机号">
-                <input id="login_password" type="password" value="111111" placeholder="密码">
-
-                <h3 id="loginPrompt"></h3>
-                <input type="hidden" value="createTopic" id="panelAfterLogin">
-                <input type="button" onclick="MedicalHome.auth.login()" class="login_btn button" value="登录">
-                <input type="button" class=" button" value="注册">
-            </div>
-        </form>
-
-    </div>
+    <div id="login" class="panel" data-footer="none" data-defer="view/login.html"></div>
     <!-- 图片预览 -->
-    <div class="panel" id="panel_image" style="padding: 0px;" data-header="none">
+    <div class="panel" id="panel_image"  data-header="none">
         <div style="width: 100%; height: 100%; text-align: center;" onclick="$.ui.hideModal('panel_image');">
             <img id="panelImagePreivew" style="width: 100%;"/>
         </div>
@@ -188,12 +157,14 @@
     <footer id='footer'>
         <a href="#main" id='navbar_home' class='icon icon-xunfangmingyi'>名医会</a>
         <a href="#yimai" id='navbar_js' class="icon icon-renmai">医脉</a>
-        <a href="#afuidemo" id='navbar_ui' class="icon icon-zhinengdaozhen">诊所</a>
-        <a href="#uiapi" id='navbar_plugins' class="icon icon-wo">我</a>
+        <a href="#afHuiZhen" id='navbar_huiZhen' class="icon icon-zhinengdaozhen">会诊</a>
+        <a id='navbar_plugins' class="icon icon-wo" onclick="$.ui.loadContent('#uiapi')">我</a>
     </footer>
     <nav id="menu_Sidebar">
         <ul class="list">
-            <li class="divider">Selector</li>
+            <li class="header">
+                <h1 style="color: rgb(83, 87, 94);"> 名医会</h1>
+            </li>
             <li>
                 <a href="#af1">讲座</a>
             </li>
@@ -207,14 +178,19 @@
     </nav>
     <nav id="menu_yiMaiSidebar">
         <ul class="list">
-            <li class="divider">我的医脉</li>
+            <li class="header">
+                <h1 style="color: rgb(83, 87, 94);"> 我的医脉</h1>
+            </li>
+            <li>
+                <a>消息</a><span class="af-badge tl">4</span>
+            </li>
             <li>
                 <a onclick="MedicalHome.viewController.yiMai.loadContacts();">通讯录</a>
             </li>
             <li>
                 <a onclick="MedicalHome.viewController.yiMai.loadWorkmates();">同事同行</a>
             </li>
-            <li class="divider">拓展医脉</li>
+            <li class="divider"></li>
             <li>
                 <a onclick="MedicalHome.viewController.yiMai.showMightKnow();">可能认识的人（23）</a>
             </li>

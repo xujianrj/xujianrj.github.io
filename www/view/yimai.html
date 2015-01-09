@@ -1,28 +1,30 @@
 <header>
-    <a  onclick="af.ui.toggleSideMenu()" class="menuButton" style="float: left;"></a>
-    <h1 >医脉
-        </h1>
-    <a class="button icon icon-add" id="mingYiHui_createTopicButton" style="float:right;font-size: 20px;line-height: 20px;top: -2px;"
+    <a onclick="af.ui.toggleSideMenu()" class="menuButton" style="float: left;"></a>
+        <!--TODO handle the search function-->
+    <h1><input oninput="searchPatientChange()" id="btnSearchFriend" type="search" placeholder="搜索">
+    </h1>
+    <a class="button icon icon-add" id="yiMai_createActionSheet"
+       style="float:right;font-size: 20px;line-height: 20px;top: -2px;"
        onclick="MedicalHome.viewController.yiMai.renderPlusActionSheet();"></a>
 </header>
 
 <!--<div class="button-grouped flex ">-->
-    <!--<a class="button " id="btnContacts" onclick="MedicalHome.viewController.yiMai.showContacts();">通信录 </a>-->
-    <!--<a class="button" id="btnFriends" onclick="MedicalHome.viewController.yiMai.showWorkmate();">同事同行 </a>-->
+<!--<a class="button " id="btnContacts" onclick="MedicalHome.viewController.yiMai.showContacts();">通信录 </a>-->
+<!--<a class="button" id="btnFriends" onclick="MedicalHome.viewController.yiMai.showWorkmate();">同事同行 </a>-->
 <!--</div>-->
 
 <!--<div id="contactContainer">-->
-    <ul id="contactList" class="list custom"></ul>
+<ul id="contactList" class="list custom"></ul>
 <!--</div>-->
 
 <!--<ul class="list">-->
-    <!--<li>-->
-        <!--<a onclick="MedicalHome.viewController.yiMai.showMightKnow();">可能认识的人（23）</a>-->
-    <!--</li>-->
-    <!--<li>-->
-        <!--<a onclick="MedicalHome.viewController.yiMai.showLevelOneFriend();">管理医脉 （88）</a>-->
-    <!--</li>-->
-    <!--<li>-->
-        <!--<a onclick="MedicalHome.viewController.yiMai.showLevelTwoFriend();">发现二度医脉（19）</a>-->
-    <!--</li>-->
+<!--<li>-->
+<!--<a onclick="MedicalHome.viewController.yiMai.showMightKnow();">可能认识的人（23）</a>-->
+<!--</li>-->
+<!--<li>-->
+<!--<a onclick="MedicalHome.viewController.yiMai.showLevelOneFriend();">管理医脉 （88）</a>-->
+<!--</li>-->
+<!--<li>-->
+<!--<a onclick="MedicalHome.viewController.yiMai.showLevelTwoFriend();">发现二度医脉（19）</a>-->
+<!--</li>-->
 <!--</ul>-->

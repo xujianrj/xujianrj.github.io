@@ -22,7 +22,7 @@ MedicalHome.viewController.yiMai = {
                     cordova.plugins.barcodeScanner.scan(
 
                         function (result) {
-                            $.ui.popup('扫描结果是：'+result.text );
+                            $.ui.popup('扫描结果是：' + result.text);
 //                  console.log(result.text);
 //                            alert("We got a barcode\n" +
 //                                "Result: " + result.text + "\n" +
@@ -108,7 +108,7 @@ MedicalHome.viewController.yiMai = {
         $.ui.toggleSideMenu(false);
 //        $.ui.loadContent("#contacts");
     },
-    loadWorkmates:function(isReload){
+    loadWorkmates: function (isReload) {
         var template = MedicalHome.viewController.yiMai.contactItemTemplate;
         if (MedicalHome.local.getFriends() == null || isReload) {
             var restUrl = 'data/workmates.json';
@@ -133,7 +133,7 @@ MedicalHome.viewController.yiMai = {
         }
         $.ui.toggleSideMenu(false);
     },
-    loadLevelOneFriend:function(isReload){
+    loadLevelOneFriend: function (isReload) {
         var template = MedicalHome.viewController.yiMai.contactItemTemplate;
         if (MedicalHome.local.getContacts() == null || isReload) {
             var restUrl = 'data/levelOneFriends.json';
@@ -159,7 +159,7 @@ MedicalHome.viewController.yiMai = {
         $.ui.toggleSideMenu(false);
 //        $.ui.loadContent("#levelOneFriend");
     },
-    showLevelTwoFriend:function(isReload){
+    showLevelTwoFriend: function (isReload) {
         var template = MedicalHome.viewController.yiMai.contactItemTemplate;
         if (MedicalHome.local.getContacts() == null || isReload) {
             var restUrl = 'data/levelTwoFriends.json';
@@ -184,7 +184,7 @@ MedicalHome.viewController.yiMai = {
         }
         $.ui.loadContent("#levelTwoFriend");
     },
-    showMightKnow:function(isReload){
+    showMightKnow: function (isReload) {
         var template = MedicalHome.viewController.yiMai.contactItemTemplate;
         if (MedicalHome.local.getContacts() == null || isReload) {
             var restUrl = 'data/mightKnows.json';
@@ -210,7 +210,7 @@ MedicalHome.viewController.yiMai = {
         $.ui.loadContent("#mightKnow");
         mightKnow
     },
-    showLevelOneFriend:function(isReload){
+    showLevelOneFriend: function (isReload) {
         var template = MedicalHome.viewController.yiMai.contactItemTemplate;
         if (MedicalHome.local.getContacts() == null || isReload) {
             var restUrl = 'data/levelOneFriends.json';
@@ -256,5 +256,14 @@ MedicalHome.viewController.yiMai = {
             });
         }
     }
+};
 
+
+MedicalHome.viewController.huiZhen = {
+    createMedicalRecordClick: function () {
+//        var isLogin = MedicalHome.auth.checkLogin();
+//        if (isLogin) {
+            $.ui.loadContent('#createMedicalRecord');
+//        }
+    }
 };

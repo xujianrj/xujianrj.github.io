@@ -1,6 +1,6 @@
 MedicalHome.viewController = {
     imageItemClick: function (e) {
-        MedicalHome.viewController.imagePreview.show('./image/sampleImg/imagePreview.png');
+        MedicalHome.viewController.imagePreview.show('./image/sampleImg/discuss.jpg');
         e.preventDefault();
         e.stopPropagation();
     }
@@ -30,6 +30,8 @@ $.bind($('#mingYiHui_createTopicButton'), "click", function () {
 //    $('.button-grouped.flex.tabbed a').eq(MedicalHome.viewController.mingYiHui.sectionIndex).addClass('pressed');
 //    MedicalHome.viewController.mingYiHui.renderSection();
 //});
+MedicalHome.viewController.main = {
+}
 MedicalHome.viewController.mingYiHui = {
     sectionIndex: 0,
     discussItemTemplate: '<li onclick="MedicalHome.viewController.mingYiHui.discussItemClick({10});">' +
@@ -124,6 +126,7 @@ MedicalHome.viewController.mingYiHui = {
             });
             $.ui.updateContentDiv("#topicList", contentHtml);
         }
+        $('.itemImg').bind('click', MedicalHome.viewController.imageItemClick);
     },
 
     renderMagazines: function (isReload) {
@@ -139,6 +142,7 @@ MedicalHome.viewController.mingYiHui = {
             });
             $.ui.updateContentDiv("#topicList", contentHtml);
         }
+        $('.itemImg').bind('click', MedicalHome.viewController.imageItemClick);
     },
     renderDiscussions: function (isReload) {
         if (MedicalHome.local.getDiscussList() == null || isReload) {

@@ -80,6 +80,8 @@ require(
                 $('.header').css("height", '62px');
                 $('.header').css("padding-top", "15px");
             }
+            $.ui.setLeftSideMenuWidth($("#afui").width()-60);//设置左边菜单的宽度为 整个页面的宽度减去60px;
+            navigator.splashscreen.hide();
         });
 
 
