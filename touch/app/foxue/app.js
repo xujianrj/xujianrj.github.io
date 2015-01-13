@@ -71,7 +71,18 @@ Ext.application({
         Ext.define('MyAccount', { extend: 'Ext.data.Model', singleton: true, fields: [
           'user'
         ] });
-        Rest.syncUserInfo();
+        //Note:test code here .
+//        Rest.syncUserInfo();
+        var mainView = Ext.create('fo.view.MainView');
+        Ext.Viewport.add(mainView);
+        var foxiangList = Ext.create('fo.view.InlineDataView', {id: 'foxiangList'});
+        Navigation.showView('flowerListView', 'fo.view.FlowerListView');
+        Navigation.showView('gongXiangView', 'fo.view.GongXiangListView');
+        Navigation.showView('lampOilListView', 'fo.view.LampOilListView');
+        Navigation.showView('fruitListView', 'fo.view.FruitListView');
+        Ext.Viewport.add(foxiangList);
+        Ext.Viewport.setActiveItem(mainView);
+
         var notice = Ext.create('fo.view.Notice');
         Ext.Viewport.add(notice);
     },
