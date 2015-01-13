@@ -82,6 +82,9 @@ Ext.application({
         Navigation.showView('fruitListView', 'fo.view.FruitListView');
         Ext.Viewport.add(foxiangList);
         Ext.Viewport.setActiveItem(mainView);
+        setTimeout(function () {
+            Ext.fly('appLoadingIndicator').destroy();
+        }, 200);
 
         var notice = Ext.create('fo.view.Notice');
         Ext.Viewport.add(notice);
