@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <title>Medical Home </title>
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" type="text/css" href="css/icons.css"/>
+
+    <!--
+  <link rel="stylesheet" type="text/css" href="css/af.ui.css" title="default" />-->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/appframework.css"/>
+    <link rel="stylesheet" type="text/css" href="css/lists.css"/>
+    <link rel="stylesheet" type="text/css" href="css/forms.css"/>
+    <link rel="stylesheet" type="text/css" href="css/buttons.css"/>
+    <link rel="stylesheet" type="text/css" href="css/badges.css"/>
+    <link rel="stylesheet" type="text/css" href="css/grid.css"/>
+    <link rel="stylesheet" type="text/css" href="css/ios7.css"/>
+    <link rel="stylesheet" type="text/css" href="plugins/css/af.actionsheet.css"/>
+    <link rel="stylesheet" type="text/css" href="plugins/css/af.popup.css"/>
+    <link rel="stylesheet" type="text/css" href="plugins/css/af.scroller.css"/>
+    <link rel="stylesheet" type="text/css" href="plugins/css/af.selectBox.css"/>
+    <link rel="stylesheet" type="text/css" href="css/medicalHome.css"/>
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mypatient.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/myquestion.css"/>
+
+    <script type="text/javascript" charset="utf-8" src="./appframework.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./plugins/af.actionsheet.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./plugins/af.css3animate.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./plugins/af.passwordBox.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./plugins/af.scroller.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./plugins/af.selectBox.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./plugins/af.touchEvents.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./plugins/af.touchLayer.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./plugins/af.popup.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./ui/appframework.ui.js"></script>
+    <!-- <script type="text/javascript" charset="utf-8" src="./ui/transitions/all.js"></script> -->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/fade.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/flip.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/pop.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/slide.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/slideDown.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/slideUp.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.slidemenu.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.carousel.js"></script>-->
+
+    <script type="text/javascript" src="./app/beforePageLoad.js"></script>
+
+    <script type="text/javascript" charset="utf-8" data-main="./util/config.js" src="./util/require.js"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <!--<script type="text/javascript" src="cordova.js"></script>-->
+
+</head>
+<body>
+<div id="afui" class="ios7">
+    <header id="common_header">
+
+        <!--TODO handle the search function-->
+        <a onclick="af.ui.toggleSideMenu()" class="menuButton" style="float: left;"></a>
+
+        <h1><wb:follow-button uid="1178992594" type="gray_2" width="136" height="24" ></wb:follow-button>
+        </h1>
+        <a class="button icon icon-add" id="global_addButton"
+           style="float:right;font-size: 20px;line-height: 20px;top: 0px;"
+           onclick="MedicalHome.viewController.mingYiHui.searchClick();"></a>
+    </header>
+    <div id="content">
+        <div title="名医会" id="main" class="panel" data-footer='footer' data-tab="navbar_home" data-header="common_header"
+             data-defer="view/mingYiHui.html" data-nav="menu_Sidebar">
+        </div>
+        <div title="医脉" id="yimai" class="panel" data-footer='footer' data-tab="navbar_js"
+             data-defer="view/yimai.html" data-nav="menu_yiMaiSidebar">
+        </div>
+        <div title="会诊" id="afHuiZhen" class="panel" data-footer='footer' data-tab="navbar_huiZhen"
+             data-defer="view/huiZhen.html" data-nav="menu_huiZhenSidebar">
+        </div>
+        <div title="我" id="afMe" class="panel" data-footer='footer' data-tab="navbar_me"
+             data-defer="view/me.html">
+        </div>
+        <div title="研讨内容" id="discussDetails" class="panel" data-footer='post_footer'
+             data-defer="view/discussDetails.html">
+        </div>
+        <div title="blog内容" id="blogDetails" class="panel" data-footer='none' js-scroll="yes">
+             <!--data-defer="view/blogDetails.html">-->
+            <iframe id="blogFrame" width="100%" height="200px"></iframe>
+            <wb:comments url="http://open.weibo.com/widget/comments.php" width="auto" ></wb:comments>
+        </div>
+        <div title="月刊内容" id="magazineDetails" class="panel" data-footer='post_footer'
+             data-defer="view/magazineDetails.html">
+        </div>
+        <div title="邀请医生" id="inviteDoctor" class="panel"
+             data-defer="view/inviteDoctor.html">
+        </div>
+        <div title="可能认识的人" id="mightKnow" class="panel">
+            <div id="mightKnowContainer">
+                <ul id="mightKnowList" class="list custom"></ul>
+            </div>
+        </div>
+
+        <div title="医生详情" id="doctorDetails" class="panel" data-defer="view/doctorDetails.html"
+             data-footer="sendMessage_footer"></div>
+        <div title="我的影响力" id="myRelationship" class="panel" data-footer="share_footer"></div>
+        <div>
+        </div>
+        <div title="病历" id="createMedicalRecord" class="panel" data-footer='none'
+             data-defer="view/createMedicalRecord.html">
+        </div>
+        <div class="panel" title='消息内容' id="panel_myquestion_detail"
+             data-footer="footer_sendMessage">
+            <header>
+                <h1 id="h1MyQuestionDetail"></h1>
+                <a href="#panel_myquestion" class="button icon chevron-left"></a>
+            </header>
+            <div id="divDialog" class="panel_myquestion_detail_dialog">
+            </div>
+        </div>
+        <!-- 某个患者病历的某项数据 -->
+        <div class="panel" id="panel_patient_caseitem" data-footer='none' data-defer="view/patientDetails.html"></div>
+    </div>
+    <div id="login" class="panel" data-footer="none" data-defer="view/login.html"></div>
+    <!-- 图片预览 -->
+    <div class="panel" id="panel_image" data-header="none">
+        <div style="width: 100%; height: 100%; text-align: center;" onclick="$.ui.hideModal('panel_image');">
+            <img id="panelImagePreivew" style="width: 100%;"/>
+        </div>
+    </div>
+    <footer id="post_footer">
+        <div class="panel_myquestion_detail_bottom">
+            <div id="post_detail_footer_input">
+                <input id="post_comment_text" type="text">
+            </div>
+            <div id="post_detail_footer_send">
+                <a class="button" onclick="postComment()">评论</a>
+            </div>
+        </div>
+    </footer>
+    <footer id="share_footer">
+        <a class="button block">分享到朋友圈</a>
+    </footer>
+    <footer id="sendMessage_footer">
+        <a class="button block" style="border: 0;background-color: rgba(82,155,234,255);color: #ffffff;">发消息</a>
+    </footer>
+    <footer id='footer_sendMessage'>
+        <div class="panel_myquestion_detail_bottom">
+            <div style="margin: auto auto;">
+                <div class="icon icon-paizhao sendpic" onclick="chooseImageType();"></div>
+                <div id="divTalk">
+                    <a id="linkRecordVoice" class="button">按住说话</a>
+                    <input oninput="inputChange()" id="iptSendText" type="text" style="display: none;" />
+                </div>
+                <div id="divToggleInputWay" class="icon icon-keyboard sendtext" onclick="toggleInputWay(this);"></div>
+                <div id="divSendQuestion">
+                    <a class="button" onclick="sendText();">发送</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer id='footer'>
+        <a href="#main" id='navbar_home' class='icon icon-xunfangmingyi'>最近</a>
+        <a href="#yimai" id='navbar_js' class="icon icon-renmai">标签</a>
+        <a id='navbar_me' class="icon icon-wo" onclick="$.ui.loadContent('#afMe')">我</a>
+    </footer>
+    <nav id="menu_Sidebar">
+        <div class="header">
+            <h1>我关注的课题类型</h1>
+        </div>
+        <ul class="list" id="ul_menu_Sidebar">
+        </ul>
+    </nav>
+    <nav id="menu_yiMaiSidebar">
+        <div class="header">
+            <h1 style="color: rgb(83, 87, 94);"> 我的医脉</h1>
+        </div>
+        <ul class="list">
+
+            <li>
+                <a onclick="MedicalHome.viewController.yiMai.loadMessages();">消息</a><span class="af-badge tl">4</span>
+            </li>
+            <li>
+                <a onclick="MedicalHome.viewController.yiMai.loadContacts();">通讯录</a>
+            </li>
+            <li>
+                <a onclick="MedicalHome.viewController.yiMai.showMightKnow();">可能认识的人（23）</a>
+            </li>
+        </ul>
+    </nav>
+    <nav id="menu_huiZhenSidebar">
+        <div class="header">
+            <a class="button icon icon-add"
+               style="float:left;font-size: 20px;line-height: 20px;top: 0px;"
+                    ></a>
+
+            <h1 style="color: rgb(83, 87, 94);"> 病历分组</h1>
+        </div>
+        <ul class="list">
+
+            <li>
+                <a>原发性肾小球疾病</a>
+            </li>
+            <li>
+                <a>继发性肾小球肾炎</a>
+            </li>
+            <li>
+                <a>泌尿系统感染性肾脏病</a>
+            </li>
+            <li>
+                <a>遗传性肾脏病</a>
+            </li>
+            <li>
+                <a>肾小管疾病</a>
+            </li>
+            <li>
+                <a>间质性肾炎</a>
+            </li>
+            <li>
+                <a>肾结石和梗阻性肾病</a>
+            </li>
+            <li>
+                <a>囊肿性肾脏病和肾脏肿瘤</a>
+            </li>
+            <li>
+                <a>肾血管疾病</a>
+            </li>
+        </ul>
+    </nav>
+    <nav id="zhenSuo_Sidebar">
+        <ul class="list">
+            <li class="divider">服务</li>
+            <li>
+                <a>患者CRM</a>
+            </li>
+            <li>
+                <a>门诊时间</a>
+            </li>
+            <li>
+                <a>诊所</a>
+            </li>
+            <li>
+                <a>日程提醒</a>
+            </li>
+            <li>
+                <a>智能助手</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>
