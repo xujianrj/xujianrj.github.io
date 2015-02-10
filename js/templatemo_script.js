@@ -36,7 +36,8 @@ jQuery(function($) {
            var navWidth = $('.navbar .navbar-nav').width();
 
             $('hgroup').css("maxWidth",navWidth + "px");
-            $('.templatemo-content').css("maxWidth",navWidth + "px");
+            //Note:make the image slider full width.
+//            $('.templatemo-content').css("maxWidth",navWidth + "px");
             $('.footer-wrapper').css("maxWidth",navWidth + "px");
         }
 
