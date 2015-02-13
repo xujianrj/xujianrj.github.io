@@ -2,129 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba0fb7ae-270d-4f6f-8515-1469b2e86613" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/articles-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/blue-skin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/blue-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/devine-art.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/flickr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/footer-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/google.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/linked-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/skype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/stumble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/blue-skin5152.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/bootstrap5152.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/custom5152.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/devine-art.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/faq-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/faq-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/flickr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/footer-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/google.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/green-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/linked-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/plus-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/skype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/stumble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/green-skin5152.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/main5152.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/devine-art.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/faq-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/faq-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/flickr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/footer-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/google.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/linked-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/plus-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/red-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/skype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/stumble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/red-skin5152.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/css/responsive5152.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/full-width.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/green-skin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/home-categories-articles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/home-categories-description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/Descr.WD3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/calendar-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/category-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/category-main-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/comment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/devine-art.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/faq-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/faq-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/flickr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/footer-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/google.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/image-large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/li-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/like-btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/like.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/linked-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/main-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/plus-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/question-large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/question.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/quote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/scroll-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/search-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/skype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/standard-large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/standard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/stumble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/support.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/temp/Descr.WD3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/temp/living-room-770x501.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/temp/man.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/video-large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/images/video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/index-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/custom5152.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/jflickrfeed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/jquery.easing.1.34e44.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/jquery.form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/jquery.formd471.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/jquery.liveSearch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/jquery.liveSearchd5f7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/jquery.validate.minfc6b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/prettyphoto/jquery.prettyPhoto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/prettyphoto/jquery.prettyPhotoaeb9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/js/prettyphoto/prettyPhotoaeb9.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/red-skin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/Àµ√˜.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mstp_35_knowledge/’“Õ¯’æƒ£∞ÂæÕ…œ°æƒ£∞Â÷Æº“°øcssMoban.com.url" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/silder1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider/slider1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider/thumb1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/indexbak.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/css/main5152bak.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/singlebak2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/slider/thumb1.jpg" afterPath="$PROJECT_DIR$/images/slider/thumb1bak.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templatemo_script.js" afterPath="$PROJECT_DIR$/js/templatemo_script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/css/main5152.css" afterPath="$PROJECT_DIR$/blog/css/main5152.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/single.html" afterPath="$PROJECT_DIR$/blog/single.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="xujianrj.github.io.iws" />
@@ -148,28 +35,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index-2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/index-2.html">
+      <file leaf-file-name="main5152bak.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/css/main5152bak.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/post.html">
+      <file leaf-file-name="main5152.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/css/main5152.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="7920">
+            <state line="226" column="23" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0" vertical-offset="3285" max-vertical-offset="21345">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="47" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.22077923" vertical-offset="299" max-vertical-offset="3855">
+            <state line="99" column="64" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3915">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexbak.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/indexbak.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5130">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="235" column="0" selection-start="19951" selection-end="19951" vertical-scroll-proportion="0.0" vertical-offset="3525" max-vertical-offset="5130">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="428" column="29" selection-start="23272" selection-end="23272" vertical-scroll-proportion="0.6964587" vertical-offset="6007" max-vertical-offset="6795">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="singlebak2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/singlebak2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="14" selection-start="0" selection-end="45613" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="7920">
               <folding />
             </state>
           </provider>
@@ -238,13 +161,17 @@
         <option value="$PROJECT_DIR$/blog/app/mingYiHuiViewController.js" />
         <option value="$PROJECT_DIR$/blog/view/mingYiHui.html" />
         <option value="$PROJECT_DIR$/blog/view/blogDetails.html" />
-        <option value="$PROJECT_DIR$/blog/index.html" />
         <option value="$PROJECT_DIR$/blog1/js/templatemo_script.js" />
         <option value="$PROJECT_DIR$/blog1/index.html" />
         <option value="$PROJECT_DIR$/css/templatemo_main.css" />
         <option value="$PROJECT_DIR$/package/blog2/js/templatemo_script.js" />
         <option value="$PROJECT_DIR$/js/templatemo_script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/blog/indexbak.html" />
+        <option value="$PROJECT_DIR$/blog/css/main5152.css" />
+        <option value="$PROJECT_DIR$/blog/index.html" />
+        <option value="$PROJECT_DIR$/blog/singlebak.html" />
+        <option value="$PROJECT_DIR$/blog/single.html" />
       </list>
     </option>
   </component>
@@ -281,7 +208,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,7 +264,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,9 +281,14 @@
               <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,10 +315,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/blog" />
+      <recent name="$PROJECT_DIR$/blog/css" />
+      <recent name="$PROJECT_DIR$/images/slider" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/images/portfolio-thumb" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/mydata" />
-      <recent name="$PROJECT_DIR$/v1/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -434,14 +365,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="45" width="1370" height="771" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2567771" sideWeight="0.67011833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26807228" sideWeight="0.67011833" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -449,11 +380,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -473,18 +405,139 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/index-2.html">
+    <entry file="file://$PROJECT_DIR$/blog/css/main5152bak.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21330">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/post.html">
+    <entry file="file://$PROJECT_DIR$/blog/css/main5152.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="7920">
+        <state line="226" column="23" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0" vertical-offset="3285" max-vertical-offset="21345">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="64" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/indexbak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="0" selection-start="19951" selection-end="19951" vertical-scroll-proportion="0.0" vertical-offset="3525" max-vertical-offset="5130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="428" column="29" selection-start="23272" selection-end="23272" vertical-scroll-proportion="0.0" vertical-offset="6007" max-vertical-offset="6795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/singlebak2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="14" selection-start="0" selection-end="45613" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="7920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templatemo_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="7920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="64" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templatemo_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="7920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="47" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="3855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templatemo_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="7920" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -520,18 +573,9 @@
         <state line="12" column="43" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5055" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/index-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="7920">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="7920" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
@@ -548,9 +592,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/css/main5152bak.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/css/main5152.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="23" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0" vertical-offset="3285" max-vertical-offset="21345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="47" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.22077923" vertical-offset="299" max-vertical-offset="3855">
+        <state line="99" column="64" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/indexbak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="0" selection-start="19951" selection-end="19951" vertical-scroll-proportion="0.0" vertical-offset="3525" max-vertical-offset="5130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/singlebak2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="14" selection-start="0" selection-end="45613" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="7920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="428" column="29" selection-start="23272" selection-end="23272" vertical-scroll-proportion="0.6964587" vertical-offset="6007" max-vertical-offset="6795">
           <folding />
         </state>
       </provider>
