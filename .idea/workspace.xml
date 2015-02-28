@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba0fb7ae-270d-4f6f-8515-1469b2e86613" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/silder1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider/slider1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slider/thumb1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/indexbak.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/css/main5152bak.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/singlebak2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/slider/thumb1.jpg" afterPath="$PROJECT_DIR$/images/slider/thumb1bak.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/css/main5152.css" afterPath="$PROJECT_DIR$/blog/css/main5152.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/single.html" afterPath="$PROJECT_DIR$/blog/single.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="xujianrj.github.io.iws" />
@@ -80,19 +70,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="single.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="428" column="29" selection-start="23272" selection-end="23272" vertical-scroll-proportion="0.6964587" vertical-offset="6007" max-vertical-offset="6795">
+            <state line="428" column="29" selection-start="23272" selection-end="23272" vertical-scroll-proportion="-245.0" vertical-offset="540" max-vertical-offset="6795">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singlebak2.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="singlebak2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/singlebak2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="14" selection-start="0" selection-end="45613" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="7920">
+            <state line="33" column="14" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.83756346" vertical-offset="0" max-vertical-offset="7920">
               <folding />
             </state>
           </provider>
@@ -361,18 +351,24 @@
       <created>1416280685974</created>
       <updated>1416280685974</updated>
     </task>
+    <task id="LOCAL-00001" summary="update css">
+      <created>1423816593342</created>
+      <updated>1423816593342</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="45" width="1370" height="771" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26807228" sideWeight="0.67011833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26807228" sideWeight="0.67011833" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -382,7 +378,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -400,6 +395,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="update css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -632,16 +629,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/singlebak2.html">
+    <entry file="file://$PROJECT_DIR$/blog/single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="14" selection-start="0" selection-end="45613" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="7920">
+        <state line="428" column="29" selection-start="23272" selection-end="23272" vertical-scroll-proportion="-245.0" vertical-offset="540" max-vertical-offset="6795">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/single.html">
+    <entry file="file://$PROJECT_DIR$/blog/singlebak2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="428" column="29" selection-start="23272" selection-end="23272" vertical-scroll-proportion="0.6964587" vertical-offset="6007" max-vertical-offset="6795">
+        <state line="33" column="14" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.83756346" vertical-offset="0" max-vertical-offset="7920">
           <folding />
         </state>
       </provider>
