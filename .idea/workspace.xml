@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba0fb7ae-270d-4f6f-8515-1469b2e86613" name="Default" comment="">
+    <list default="true" id="ba0fb7ae-270d-4f6f-8515-1469b2e86613" name="Default" comment="update css">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slider/slider1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slider/thumb1.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/af/partials/20150420.html" afterPath="$PROJECT_DIR$/package/af/partials/20150420.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/xujian.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/xujian.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/af/index2.html" afterPath="$PROJECT_DIR$/package/af/index2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="xujianrj.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,42 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main5152bak.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/css/main5152bak.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main5152.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/css/main5152.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="226" column="23" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0" vertical-offset="3390" max-vertical-offset="21345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="111" selection-start="2364" selection-end="2364" vertical-scroll-proportion="0.3035413" vertical-offset="405" max-vertical-offset="3930">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indexbak.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/indexbak.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5130">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +42,7 @@
       <file leaf-file-name="single.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="428" column="29" selection-start="23272" selection-end="23272" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="6795">
+            <state line="428" column="29" selection-start="23272" selection-end="23272" vertical-scroll-proportion="0.0" vertical-offset="6420" max-vertical-offset="6795">
               <folding />
             </state>
           </provider>
@@ -83,7 +51,7 @@
       <file leaf-file-name="singlebak2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/singlebak2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="14" selection-start="1635" selection-end="1635" vertical-scroll-proportion="-0.0" vertical-offset="495" max-vertical-offset="7920">
+            <state line="33" column="14" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="7920">
               <folding />
             </state>
           </provider>
@@ -92,25 +60,61 @@
       <file leaf-file-name="example_json.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package/TimelineJS/examples/example_json.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.875" vertical-offset="189" max-vertical-offset="795">
+            <state line="16" column="13" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templatemo_script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/templatemo_script.js">
+      <file leaf-file-name="example_json.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/TimelineJS/examples/example_json.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935">
+            <state line="4" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templatemo_main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
+      <file leaf-file-name="index2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/af/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470">
+            <state line="98" column="0" selection-start="3579" selection-end="3579" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="1560">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20150420.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/af/partials/20150420.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="97" selection-start="183" selection-end="183" vertical-scroll-proportion="-1.2244898" vertical-offset="0" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="30" selection-start="5593" selection-end="5593" vertical-scroll-proportion="0.9476744" vertical-offset="949" max-vertical-offset="3930">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fastclick.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/af/fastclick.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timeline.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/TimelineJS/build/css/timeline.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="16" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -171,13 +175,18 @@
         <option value="$PROJECT_DIR$/blog/index.html" />
         <option value="$PROJECT_DIR$/blog/singlebak.html" />
         <option value="$PROJECT_DIR$/blog/single.html" />
+        <option value="$PROJECT_DIR$/package/TimelineJS/examples/example_json.html" />
+        <option value="$PROJECT_DIR$/package/TimelineJS/build/css/timeline.css" />
+        <option value="$PROJECT_DIR$/package/TimelineJS/examples/example_json.json" />
+        <option value="$PROJECT_DIR$/package/af/index.html" />
+        <option value="$PROJECT_DIR$/package/af/index2.html" />
+        <option value="$PROJECT_DIR$/package/af/partials/20150420.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
     <option name="y" value="45" />
     <option name="width" value="1370" />
     <option name="height" value="771" />
@@ -208,6 +217,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,14 +236,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xujianrj.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xujianrj.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xujianrj.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xujianrj.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xujianrj.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xujianrj.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../glass" />
     <property name="FullScreen" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="122" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -254,11 +309,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/blog" />
-      <recent name="$PROJECT_DIR$/blog/css" />
-      <recent name="$PROJECT_DIR$/images/slider" />
       <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/images/portfolio-thumb" />
+      <recent name="$PROJECT_DIR$/package/af/partials" />
+      <recent name="$PROJECT_DIR$/package/af" />
+      <recent name="$PROJECT_DIR$/package/TimelineJS/examples/image" />
+      <recent name="$PROJECT_DIR$/blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/package/TimelineJS/examples/image" />
     </key>
   </component>
   <component name="RunManager">
@@ -305,19 +363,24 @@
       <created>1423816593342</created>
       <updated>1423816593342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update css">
+      <created>1425436329124</created>
+      <updated>1425436329124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="45" width="1370" height="771" extended-state="0" />
+    <frame x="0" y="45" width="1370" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27183735" sideWeight="0.67011833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28313252" sideWeight="0.67011833" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -325,12 +388,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -352,25 +414,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/css/main5152bak.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/css/main5152.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="23" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0" vertical-offset="3390" max-vertical-offset="21345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="64" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3915">
-          <folding />
-        </state>
+        <state line="99" column="64" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3915" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/indexbak.html">
@@ -403,37 +449,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/templatemo_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935">
-          <folding />
-        </state>
+        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470">
-          <folding />
-        </state>
+        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/css/main5152bak.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21330">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/css/main5152.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="23" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0" vertical-offset="3285" max-vertical-offset="21345">
-          <folding />
-        </state>
+        <state line="226" column="23" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0" vertical-offset="3285" max-vertical-offset="21345" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="64" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3915">
-          <folding />
-        </state>
+        <state line="99" column="64" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3915" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/indexbak.html">
@@ -466,16 +502,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/templatemo_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935">
-          <folding />
-        </state>
+        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470">
-          <folding />
-        </state>
+        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/index-2.html">
@@ -490,23 +522,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="64" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3915">
-          <folding />
-        </state>
+        <state line="99" column="64" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3915" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/templatemo_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935">
-          <folding />
-        </state>
+        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470">
-          <folding />
-        </state>
+        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/index-2.html">
@@ -521,23 +547,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="47" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="3855">
-          <folding />
-        </state>
+        <state line="29" column="47" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="3855" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/templatemo_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935">
-          <folding />
-        </state>
+        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470">
-          <folding />
-        </state>
+        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/index-2.html">
@@ -552,30 +572,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="47" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="3855">
-          <folding />
-        </state>
+        <state line="29" column="47" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="3855" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/templatemo_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935">
-          <folding />
-        </state>
+        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470">
-          <folding />
-        </state>
+        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="25" selection-start="4925" selection-end="4925" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="5445">
-          <folding />
-        </state>
+        <state line="111" column="25" selection-start="4925" selection-end="4925" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="5445" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -590,16 +602,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/templatemo_main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470">
-          <folding />
-        </state>
+        <state line="103" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/templatemo_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935">
-          <folding />
-        </state>
+        <state line="40" column="30" selection-start="1332" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/index-2.html">
@@ -609,16 +617,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/css/main5152bak.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/css/main5152.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="23" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0" vertical-offset="3285" max-vertical-offset="21345">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/indexbak.html">
@@ -649,16 +648,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/css/main5152.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="23" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0" vertical-offset="3285" max-vertical-offset="21345" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package/TimelineJS/examples/example_json.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.875" vertical-offset="189" max-vertical-offset="795">
+        <state line="16" column="13" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/TimelineJS/build/css/timeline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/TimelineJS/examples/example_json.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/af/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="0" selection-start="4537" selection-end="4537" vertical-scroll-proportion="0.15697674" vertical-offset="1581" max-vertical-offset="9495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/af/fastclick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="393">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/af/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="0" selection-start="3579" selection-end="3579" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/af/partials/20150420.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="97" selection-start="183" selection-end="183" vertical-scroll-proportion="-1.2244898" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="111" selection-start="2364" selection-end="2364" vertical-scroll-proportion="0.3035413" vertical-offset="405" max-vertical-offset="3930">
+        <state line="85" column="30" selection-start="5593" selection-end="5593" vertical-scroll-proportion="0.9476744" vertical-offset="949" max-vertical-offset="3930">
           <folding />
         </state>
       </provider>
