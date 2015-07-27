@@ -1,13 +1,13 @@
 {
-	status: 200,
-	message: '登录成功',
-	result: 
+	"status": 200,
+	"message": "登录成功",
+	"result":
 	{
-		UserId: '1', //用户编号
-		UserName: 'ljd', //用户名
-		RealName: '张幂', //姓名
-        MDRID: '110112119 ', //病案号
-		Department: '儿科', //就诊科室
-		Token: 'a'
+		"UserId": 1, //用户编号
+		"UserName": "ljd", //用户名
+		"RealName": "张幂", //姓名
+        "MDRID": 110112119, //病案号
+		"Department": "儿科", //就诊科室
+		"Token": "a"
 	}
 }
