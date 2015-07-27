@@ -4,17 +4,17 @@
 	"result":
 	[
 		{
-			"Id": "2133", //报告编号
-			"ReportName": "主动脉介入随访内容", //报告名称
-			"PatientId": "2133", //患者编号
-			"PatientName": "李铭", //患者姓名
-			"MDRID": "2511057", //病案号
-			"Gender": "M", //性别
-			"Birthday": "38天", //出生日期
-			"CreatedName": "李敬东", //创建人
-			"CreatedDate": "2015-07-08 08:23", //创建时间
-			"UpdatedName": "李敬东", //修改人
-			"UpdatedDate": "2015-07-08 08:23", //修改时间
+			"Id": "2133",
+			"ReportName": "主动脉介入随访内容",
+			"PatientId": "2133",
+			"PatientName": "李铭",
+			"MDRID": "2511057",
+			"Gender": "M",
+			"Birthday": "38天",
+			"CreatedName": "李敬东",
+			"CreatedDate": "2015-07-08 08:23",
+			"UpdatedName": "李敬东",
+			"UpdatedDate": "2015-07-08 08:23",
 			"Status": "0"
 		},
 		{
