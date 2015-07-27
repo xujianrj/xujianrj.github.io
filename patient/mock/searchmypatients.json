@@ -1,74 +1,74 @@
 {
-	status: 200,
-	message: '',
-	result: 
+	"status": 200,
+	"message": '',
+	"result":
 	[
 		
 		{
-			Id: '2145',
-			Name: '常国斌',
+			"Id": '2145',
+			"Name": '常国斌',
 			"MDRID": '8963654',
 			"Gender": 'M',
 			"Birthday": '82天',
 			"EncounterCount": 2,
-			CRFCount: 3,
-			CreatedName: '赵俊',
-			CreatedDate: '2015-07-08 06:46',
-			UpdatedName: '赵俊',
-			UpdatedDate: '2015-07-08 07:02'
+			"CRFCount": 3,
+			"CreatedName": '赵俊',
+			"CreatedDate": '2015-07-08 06:46',
+			"UpdatedName": '赵俊',
+			"UpdatedDate": '2015-07-08 07:02'
 		},
 		{
-			Id: '2146',
-			Name: '金明华',
-			MDRID: '3263976',
-			Gender: 'F',
-			Birthday: '3月',
-			EncounterCount: 1,
-			CRFCount: 0,
-			CreatedName: '李敬东',
-			CreatedDate: '2015-07-08 06:46',
-			UpdatedName: '李敬东',
-			UpdatedDate: '2015-07-08 06:46'
+			"Id": '2146',
+			"Name": '金明华',
+			"MDRID": '3263976',
+			"Gender": 'F',
+			"Birthday": '3月',
+			"EncounterCount": 1,
+			"CRFCount": 0,
+			"CreatedName": '李敬东',
+			"CreatedDate": '2015-07-08 06:46',
+			"UpdatedName": '李敬东',
+			"UpdatedDate": '2015-07-08 06:46'
 		},
 		
 		{
-			Id: '2148',
-			Name: '李婧蕊',
-			MDRID: '4583663',
-			Gender: 'F',
-			Birthday: '21岁',
-			EncounterCount: 1,
-			CRFCount: 3,
-			CreatedName: '赵俊',
-			CreatedDate: '2015-07-08 06:35',
-			UpdatedName: '赵俊',
-			UpdatedDate: '2015-07-08 06:35'
+			"Id": '2148',
+			"Name": '李婧蕊',
+			"MDRID": '4583663',
+			"Gender": 'F',
+			"Birthday": '21岁',
+			"EncounterCount": 1,
+			"CRFCount": 3,
+			"CreatedName": '赵俊',
+			"CreatedDate": '2015-07-08 06:35',
+			"UpdatedName": '赵俊',
+			"UpdatedDate": '2015-07-08 06:35'
 		},
 		{
-			Id: '2150',
-			Name: '马诺',
-			MDRID: '6987453',
-			Gender: 'F',
-			Birthday: '14岁',
-			EncounterCount: 1,
-			CRFCount: 1,
-			CreatedName: '李敬东',
-			CreatedDate: '2015-07-08 06:28',
-			UpdatedName: '李敬东',
-			UpdatedDate: '2015-07-08 06:28'
+			"Id": '2150',
+			"Name": '马诺',
+			"MDRID": '6987453',
+			"Gender": 'F',
+			"Birthday": '14岁',
+			"EncounterCount": 1,
+			"CRFCount": 1,
+			"CreatedName": '李敬东',
+			"CreatedDate": '2015-07-08 06:28',
+			"UpdatedName": '李敬东',
+			"UpdatedDate": '2015-07-08 06:28'
 		},
 		{
-			Id: '2151',
-			Name: '宋子淇',
-			MDRID: '1236963',
-			Gender: 'F',
-			Birthday: '35岁',
-			EncounterCount: 1,
-			CRFCount: 1,
-			CreatedName: '赵俊',
-			CreatedDate: '2015-07-08 06:22',
-			UpdatedName: '赵俊',
-			UpdatedDate: '2015-07-08 06:55'
+			"Id": '2151',
+			"Name": '宋子淇',
+			"MDRID": '1236963',
+			"Gender": 'F',
+			"Birthday": '35岁',
+			"EncounterCount": 1,
+			"CRFCount": 1,
+			"CreatedName": '赵俊',
+			"CreatedDate": '2015-07-08 06:22',
+			"UpdatedName": '赵俊',
+			"UpdatedDate": '2015-07-08 06:55'
 		}
 	]
 }
