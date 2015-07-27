@@ -1,142 +1,142 @@
 {
 	"status": 200,
-	"message": '',
+	"message": "",
 	"result":
 	[
 		{
-			"Id": '2133', //报告编号
-			"ReportName": '主动脉介入随访内容', //报告名称
-            "Comments": '用于观察介入手术后康复情况', //备注
-			"PatientId": '2133', //患者编号
-			"PatientName": '李铭', //患者姓名
-			"MDRID": '2511057', //病案号
-			"Gender": 'M', //性别
-			"Birthday": '38天', //出生日期
-			"CreatedName": '马明宇', //创建人
-			"CreatedDate": '2015-07-22', //创建时间
-			"UpdatedName": '李敬东', //修改人
-			"UpdatedDate": '2015-07-08 08:23', //修改时间
-			"Status": '0'
+			"Id": "2133", //报告编号
+			"ReportName": "主动脉介入随访内容", //报告名称
+            "Comments": "用于观察介入手术后康复情况", //备注
+			"PatientId": "2133", //患者编号
+			"PatientName": "李铭", //患者姓名
+			"MDRID": "2511057", //病案号
+			"Gender": "M", //性别
+			"Birthday": "38天", //出生日期
+			"CreatedName": "马明宇", //创建人
+			"CreatedDate": "2015-07-22", //创建时间
+			"UpdatedName": "李敬东", //修改人
+			"UpdatedDate": "2015-07-08 08:23", //修改时间
+			"Status": "0"
 		},
 		{
-			"Id": '2134',
-			"ReportName": '肾脏移植随访内容',
-            "Comments": '用于观察介入手术后康复情况', //备注
-			"PatientId": '2134',
-			"PatientName": '王晶晶',
-			"MDRID": '2620967',
-			"Gender": 'F',
-			"Birthday": '21岁',
-			"CreatedName": '马明宇',
-			"CreatedDate": '2015-07-21',
-			"UpdatedName": '李敬东',
-			"UpdatedDate": '2015-07-08 07:23',
-			"Status": '0'
+			"Id": "2134",
+			"ReportName": "肾脏移植随访内容",
+            "Comments": "用于观察介入手术后康复情况", //备注
+			"PatientId": "2134",
+			"PatientName": "王晶晶",
+			"MDRID": "2620967",
+			"Gender": "F",
+			"Birthday": "21岁",
+			"CreatedName": "马明宇",
+			"CreatedDate": "2015-07-21",
+			"UpdatedName": "李敬东",
+			"UpdatedDate": "2015-07-08 07:23",
+			"Status": "0"
 		},
 		{
-			"Id": '2142',
-			"ReportName": '甲状腺切除随访内容',
-            "Comments": '用于观察介入手术后康复情况', //备注
-			"PatientId": '2142',
-			"PatientName": '赵跃',
-			"MDRID": '9657467',
-			"Gender": 'F',
-			"Birthday": '31岁',
-			"CreatedName": '马明宇',
-			"CreatedDate": '2015-07-16',
-			"UpdatedName": '赵俊',
-			"UpdatedDate": '2015-07-08 07:15',
-			"Status": '1'
+			"Id": "2142",
+			"ReportName": "甲状腺切除随访内容",
+            "Comments": "用于观察介入手术后康复情况", //备注
+			"PatientId": "2142",
+			"PatientName": "赵跃",
+			"MDRID": "9657467",
+			"Gender": "F",
+			"Birthday": "31岁",
+			"CreatedName": "马明宇",
+			"CreatedDate": "2015-07-16",
+			"UpdatedName": "赵俊",
+			"UpdatedDate": "2015-07-08 07:15",
+			"Status": "1"
 		},
 		{
-			"Id": '2143',
-			"ReportName": '肾脏移植登记表',
-            "Comments": '用于观察介入手术后康复情况', //备注
-			"PatientId": '2143',
-			"PatientName": '张海磊',
-			"MDRID": '2657461',
-			"Gender": 'M',
-			"Birthday": '7月',
-			"CreatedName": '马明宇',
-			"CreatedDate": '2015-07-14',
-			"UpdatedName": '林倩',
-			"UpdatedDate": '2015-07-08 07:05',
-			"Status": '1'
+			"Id": "2143",
+			"ReportName": "肾脏移植登记表",
+            "Comments": "用于观察介入手术后康复情况", //备注
+			"PatientId": "2143",
+			"PatientName": "张海磊",
+			"MDRID": "2657461",
+			"Gender": "M",
+			"Birthday": "7月",
+			"CreatedName": "马明宇",
+			"CreatedDate": "2015-07-14",
+			"UpdatedName": "林倩",
+			"UpdatedDate": "2015-07-08 07:05",
+			"Status": "1"
 		},
 		{
-			"Id": '2144',
-			"ReportName": '脂肪肝随访内容',
-            "Comments": '用于观察介入手术后康复情况', //备注
-			"PatientId": '2144',
-			"PatientName": '魏雪漫',
-			"MDRID": '4569512',
-			"Gender": 'F',
-			"Birthday": '8月',
-			"CreatedName": '马明宇',
-			"CreatedDate": '2015-07-10',
-			"UpdatedName": '赵俊',
-			"UpdatedDate": '2015-07-08 07:05',
-			"Status": '0'
+			"Id": "2144",
+			"ReportName": "脂肪肝随访内容",
+            "Comments": "用于观察介入手术后康复情况", //备注
+			"PatientId": "2144",
+			"PatientName": "魏雪漫",
+			"MDRID": "4569512",
+			"Gender": "F",
+			"Birthday": "8月",
+			"CreatedName": "马明宇",
+			"CreatedDate": "2015-07-10",
+			"UpdatedName": "赵俊",
+			"UpdatedDate": "2015-07-08 07:05",
+			"Status": "0"
 		},
 		{
-			"Id": '2145',
-			"ReportName": '垂体瘤登记表',
-            "Comments": '用于观察介入手术后康复情况', //备注
-			"PatientId": '2145',
-			"PatientName": '常国斌',
-			"MDRID": '8963654',
-			"Gender": 'M',
-			"Birthday": '82天',
-			"CreatedName": '马明宇',
-			"CreatedDate": '2015-07-08',
-			"UpdatedName": '赵俊',
-			"UpdatedDate": '2015-07-08 07:02',
-			"Status": '1'
+			"Id": "2145",
+			"ReportName": "垂体瘤登记表",
+            "Comments": "用于观察介入手术后康复情况", //备注
+			"PatientId": "2145",
+			"PatientName": "常国斌",
+			"MDRID": "8963654",
+			"Gender": "M",
+			"Birthday": "82天",
+			"CreatedName": "马明宇",
+			"CreatedDate": "2015-07-08",
+			"UpdatedName": "赵俊",
+			"UpdatedDate": "2015-07-08 07:02",
+			"Status": "1"
 		},
 		{
-			"Id": '2146',
-			"ReportName": '三叉神经痛随访表',
-            "Comments": '用于观察介入手术后康复情况', //备注
-			"PatientId": '2146',
-			"PatientName": '金明华',
-			"MDRID": '3263976',
-			"Gender": 'F',
-			"Birthday": '3月',
-			"CreatedName": '马明宇',
-			"CreatedDate": '2015-07-07',
-			"UpdatedName": '李敬东',
-			"UpdatedDate": '2015-07-08 06:46',
-			"Status": '1'
+			"Id": "2146",
+			"ReportName": "三叉神经痛随访表",
+            "Comments": "用于观察介入手术后康复情况", //备注
+			"PatientId": "2146",
+			"PatientName": "金明华",
+			"MDRID": "3263976",
+			"Gender": "F",
+			"Birthday": "3月",
+			"CreatedName": "马明宇",
+			"CreatedDate": "2015-07-07",
+			"UpdatedName": "李敬东",
+			"UpdatedDate": "2015-07-08 06:46",
+			"Status": "1"
 		},
 		{
-			"Id": '2147',
-			"ReportName": '肝移植随访表（2015版）',
-            "Comments": '用于观察介入手术后康复情况', //备注
-			"PatientId": '2147',
-			"PatientName": '赵亮',
-			"MDRID": '1563985',
-			"Gender": 'M',
-			"Birthday": '12岁',
-			"CreatedName": '马明宇',
-			"CreatedDate": '2015-07-04',
-			"UpdatedName": '李敬东',
-			"UpdatedDate": '2015-07-08 06:40',
-			"Status": '0'
+			"Id": "2147",
+			"ReportName": "肝移植随访表（2015版）",
+            "Comments": "用于观察介入手术后康复情况", //备注
+			"PatientId": "2147",
+			"PatientName": "赵亮",
+			"MDRID": "1563985",
+			"Gender": "M",
+			"Birthday": "12岁",
+			"CreatedName": "马明宇",
+			"CreatedDate": "2015-07-04",
+			"UpdatedName": "李敬东",
+			"UpdatedDate": "2015-07-08 06:40",
+			"Status": "0"
 		},
 		{
-			"Id": '2148',
-			"ReportName": '膝关节置换登记表',
-            "Comments": '用于观察介入手术后康复情况', //备注
-			"PatientId": '2148',
-			"PatientName": '李婧蕊',
-			"MDRID": '4583663',
-			"Gender": 'F',
-			"Birthday": '21岁',
-			"CreatedName": '马明宇',
-			"CreatedDate": '2015-07-02',
-			"UpdatedName": '赵俊',
-			"UpdatedDate": '2015-07-08 06:35',
-			"Status": '1'
+			"Id": "2148",
+			"ReportName": "膝关节置换登记表",
+            "Comments": "用于观察介入手术后康复情况", //备注
+			"PatientId": "2148",
+			"PatientName": "李婧蕊",
+			"MDRID": "4583663",
+			"Gender": "F",
+			"Birthday": "21岁",
+			"CreatedName": "马明宇",
+			"CreatedDate": "2015-07-02",
+			"UpdatedName": "赵俊",
+			"UpdatedDate": "2015-07-08 06:35",
+			"Status": "1"
 		}
 	]
 }
