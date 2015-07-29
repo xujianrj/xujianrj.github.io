@@ -28,7 +28,7 @@
 
 <div class="container">
 <!-- Static navbar -->
-<div class="navbar navbar-default" role="navigation" style="display: none;">
+<div class="navbar navbar-default" role="navigation" style="display: block;">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -41,9 +41,10 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#templatemo-page1"><i class="fa"></i>Home</a></li>
-                <li><a href="package/mydata/index.html"><i class="fa"></i>Data</a></li>
-                <li><a href="package/www/index.html"><i class="fa"></i>Demo</a></li>
-                <li><a href="package/TimelineJS/examples/example_json.html"><i class="fa"></i>Timeline</a></li>
+                <li class="active"><a href="#templatemo-page2"><i class="fa"></i>They</a></li>
+                <!--<li><a href="package/mydata/index.html"><i class="fa"></i>Data</a></li>-->
+                <!--<li><a href="package/www/index.html"><i class="fa"></i>Demo</a></li>-->
+                <!--<li><a href="package/TimelineJS/examples/example_json.html"><i class="fa"></i>Timeline</a></li>-->
                 <!--<li><a href="#templatemo-page2"><i class="fa fa-video-camera"></i>Videos</a></li>-->
                 <!--<li><a href="#templatemo-page3"><i class="fa fa-laptop"></i>Services</a></li>-->
                 <!--<li><a href="#templatemo-page4"><i class="fa fa-users"></i>About</a></li>-->
@@ -95,45 +96,12 @@
             这里是书名的介绍文字:这里是书名的介绍文字:如何人生类若夕阳，那么请让他在最美丽的时刻绽放最耀眼的光芒
         </span>
             </p></div>
-        <!--<p><a href="#">Authentic</a> is free HTML5 site template by <strong><span class="blue">template</span><span class="green">mo</span></strong>. You may download and apply this template for any purpose. Credits go to <a rel="nofollow" href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> for icons and <a rel="nofollow" href="#">Unsplash</a> for images.</p>-->
         <div id="slider" class="flexslider" style="display: none;">
             <ul class="slides">
-                <li>
-                    <!--<span class="blue">移动时代已经来临</span>  2015-1-1-->
-                    <img src="images/slider/slider1.jpg" alt="Slide 1"/>
-                </li>
-                <li>
-                    <!--回家过年  2015-1-1-->
-                    <img src="images/slider/slide2.jpg" alt="Slide 2"/>
-                </li>
-                <li>
-                    <img src="images/slider/slide3.jpg" alt="Slide 3"/>
-                </li>
-                <li>
-                    <img src="images/slider/slide4.jpg" alt="Slide 4"/>
-                </li>
-                <li>
-                    <img src="images/slider/slide5.jpg" alt="Slide 5"/>
-                </li>
             </ul>
         </div>
         <div id="carousel" class="flexslider" style="display: none;">
             <ul class="slides">
-                <li>
-                    <img src="images/slider/thumb1.jpg" alt="Thumbnail 1"/>
-                </li>
-                <li>
-                    <img src="images/slider/thumb2.jpg" alt="Thumbnail 2"/>
-                </li>
-                <li>
-                    <img src="images/slider/thumb3.jpg" alt="Thumbnail 3"/>
-                </li>
-                <li>
-                    <img src="images/slider/thumb4.jpg" alt="Thumbnail 4"/>
-                </li>
-                <li>
-                    <img src="images/slider/thumb5.jpg" alt="Thumbnail 5"/>
-                </li>
             </ul>
         </div>
     </div>
@@ -142,6 +110,9 @@
 <section id="templatemo-page2-text" class="inactive">
     <div class="col-sm-12 col-md-12">
         <h2>Videos</h2>
+        <!-- UY BEGIN -->
+        <div id="uyan_frame"></div>
+        <!-- UY END -->
 
         <p>Fusce cursus gravida justo, sit amet facilisis libero auctor non. Nullam bibendum, quam ac
             dapibus congue, ligula lectus tempor erat, sed posuere purus massa vel leo. Donec dignissim in
@@ -304,13 +275,9 @@
         </div>
     </div>
 </section>
-<!-- /.templatemo-page5-text -->
 </div>
-<!-- /.templatemo-content -->
 </div>
-<!-- /.templatemo-content-wrapper -->
 </div>
-<!-- /.row -->
 
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
@@ -322,10 +289,6 @@
                 <a href="#"><i class="fa fa-youtube"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
             </p>
-            <!--<p id="tm-copyright">-->
-            <!--Copyright &copy; 2084 Your Company Name. Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a> - More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a>
-            -->
-            <!--</p>-->
         </div>
     </div>
     <!-- /.footer -->
@@ -345,5 +308,7 @@
 <script src="js/jquery.flexslider.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/templatemo_script.js"></script>
+
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
 </body>
 </html>
