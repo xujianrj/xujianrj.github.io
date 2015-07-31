@@ -3,11 +3,11 @@
  <channel>
   <title>gnu-social public timeline</title>
   <link>http://localhost/gnu-social/index.php/</link>
-  <atom:link type="application/rss+xml" href="/gnu-social/index.php/api/statuses/public_timeline.rss" rel="self"></atom:link>
+  <atom:link type="application/rss+xml" href="http://localhost/gnu-social/index.php/api/statuses/public_timeline.rss" rel="self"></atom:link>
   <image>
    <link>http://localhost/gnu-social/index.php/</link>
    <title>gnu-social public timeline</title>
-   <url>/gnu-social/theme/dark/logo.png</url>
+   <url>http://localhost/gnu-social//gnu-social/theme/dark/logo.png</url>
   </image>
   <description>gnu-social updates from everyone!</description>
   <language>en-us</language>
