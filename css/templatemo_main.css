@@ -244,6 +244,11 @@ img {  vertical-align: middle; }
     border: none;
 }
 
+#postContainer a{
+    padding-top: 10px;
+    line-height: 30px;
+}
+
 /* 5. Contact Styles
 --------------------------------------------- */
 #map-canvas {
