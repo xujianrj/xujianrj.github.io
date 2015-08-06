@@ -14,7 +14,7 @@
     <title>gnu-social public timeline</title>
     <subtitle>gnu-social updates from everyone!</subtitle>
     <logo>http://localhost/gnu-social//gnu-social/theme/dark/logo.png</logo>
-    <updated>2015-08-06T08:22:31+00:00</updated>
+    <updated>2015-08-06T08:37:04+00:00</updated>
     <link href="http://localhost/gnu-social/index.php/" rel="alternate" type="text/html"/>
     <link href="http://localhost/gnu-social/index.php/api/statuses/public_timeline.atom" rel="self" type="application/atom+xml"/>
     <entry>
