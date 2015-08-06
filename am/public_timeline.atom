@@ -8,13 +8,15 @@
     xmlns:poco="http://portablecontacts.net/spec/1.0" 
     xmlns:ostatus="http://ostatus.org/schema/1.0" 
     xmlns:status_net="http://status.net/schema/api/1/" 
-    xmlns:statusnet="http://status.net/schema/api/1/">
+    xmlns:statusnet="http://status.net/schema/api/1/" 
+    xmlns:link="http://status.net/schema/api/1/" 
+    xmlns:followers="http://status.net/schema/api/1/">
     <generator uri="http://status.net" version="1.1.1-alpha">StatusNet</generator>
     <id>tag:localhost,2015-08-06:gnu-social:PublicTimeline</id>
     <title>gnu-social public timeline</title>
     <subtitle>gnu-social updates from everyone!</subtitle>
     <logo>http://localhost/gnu-social//gnu-social/theme/dark/logo.png</logo>
-    <updated>2015-08-06T09:03:34+00:00</updated>
+    <updated>2015-08-06T09:05:39+00:00</updated>
     <link href="http://localhost/gnu-social/index.php/" rel="alternate" type="text/html"/>
     <link href="http://localhost/gnu-social/index.php/api/statuses/public_timeline.atom" rel="self" type="application/atom+xml"/>
     <entry>
