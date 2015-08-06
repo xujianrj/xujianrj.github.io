@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:georss="http://www.georss.org/georss" xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:media="http://purl.org/syndication/atommedia" xmlns:poco="http://portablecontacts.net/spec/1.0" xmlns:ostatus="http://ostatus.org/schema/1.0" xmlns:statusnet="http://status.net/schema/api/1/">
+ <generator uri="http://status.net" version="1.1.1-alpha">StatusNet</generator>
+ <id>tag:localhost,2015-08-06:gnu-social:PublicTimeline</id>
+ <title>gnu-social public timeline</title>
+ <subtitle>gnu-social updates from everyone!</subtitle>
+ <logo>http://localhost/gnu-social//gnu-social/theme/dark/logo.png</logo>
+ <updated>2015-08-06T08:03:21+00:00</updated>
+ <link href="http://localhost/gnu-social/index.php/" rel="alternate" type="text/html"/>
+ <link href="http://localhost/gnu-social/index.php/api/statuses/public_timeline.atom" rel="self" type="application/atom+xml"/>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/notice/55</id>
+ <title>New comment by admin</title>
+ <content type="html">zzz</content>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/55"/>
+ <status_net notice_id="55"></status_net>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2015-05-03T07:14:00+00:00</published>
+ <updated>2015-05-03T07:14:00+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/1</uri>
+  <name>admin</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/admin"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>admin</poco:preferredUsername>
+  <poco:displayName>admin</poco:displayName>
+  <poco:note>ddd</poco:note>
+  <followers url="/gnu-social/index.php/admin/subscribers"></followers>
+  <statusnet:profile_info local_id="1"></statusnet:profile_info>
+ </author>
+ <thr:in-reply-to ref="/gnu-social/index.php/notice/49" href="/gnu-social/index.php/notice/49"></thr:in-reply-to>
+ <link rel="related" href="/gnu-social/index.php/notice/49"/>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/49"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="/gnu-social/index.php/user/7"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/1.atom</id>
+  <title>admin</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/admin"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/1.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-05-03T07:14:00+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/55.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/55.atom"/>
+ <statusnet:notice_info local_id="55" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/notice/54</id>
+ <title>New note by admin</title>
+ <content type="html">xxxx</content>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/54"/>
+ <status_net notice_id="54"></status_net>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2015-04-12T08:55:00+00:00</published>
+ <updated>2015-04-12T08:55:00+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/1</uri>
+  <name>admin</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/admin"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>admin</poco:preferredUsername>
+  <poco:displayName>admin</poco:displayName>
+  <poco:note>ddd</poco:note>
+  <followers url="/gnu-social/index.php/admin/subscribers"></followers>
+  <statusnet:profile_info local_id="1"></statusnet:profile_info>
+ </author>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/54"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/1.atom</id>
+  <title>admin</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/admin"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/1.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-05-03T07:14:00+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/54.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/54.atom"/>
+ <statusnet:notice_info local_id="54" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/notice/53</id>
+ <title>New note by admin</title>
+ <content type="html">my private message</content>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/53"/>
+ <status_net notice_id="53"></status_net>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2015-04-12T08:53:41+00:00</published>
+ <updated>2015-04-12T08:53:41+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/1</uri>
+  <name>admin</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/admin"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>admin</poco:preferredUsername>
+  <poco:displayName>admin</poco:displayName>
+  <poco:note>ddd</poco:note>
+  <followers url="/gnu-social/index.php/admin/subscribers"></followers>
+  <statusnet:profile_info local_id="1"></statusnet:profile_info>
+ </author>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/53"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/1.atom</id>
+  <title>admin</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/admin"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/1.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-05-03T07:14:00+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/53.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/53.atom"/>
+ <statusnet:notice_info local_id="53" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/notice/50</id>
+ <title>New note by xujian2</title>
+ <content type="html">@&lt;span class=&quot;vcard&quot;&gt;&lt;a href=&quot;/gnu-social/index.php/user/1&quot; class=&quot;url&quot; title=&quot;admin&quot;&gt;&lt;span class=&quot;fn nickname mention&quot;&gt;admin&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;  xxxx</content>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/50"/>
+ <status_net notice_id="50"></status_net>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2015-04-12T08:16:24+00:00</published>
+ <updated>2015-04-12T08:16:24+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/7</uri>
+  <name>xujian2</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian2"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian2</poco:preferredUsername>
+  <poco:displayName>xujian2</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian2/subscribers"></followers>
+  <statusnet:profile_info local_id="7"></statusnet:profile_info>
+ </author>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/50"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="/gnu-social/index.php/user/1"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/7.atom</id>
+  <title>xujian2</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian2"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/7.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:16:24+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/50.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/50.atom"/>
+ <statusnet:notice_info local_id="50" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/notice/49</id>
+ <title>New note by xujian2</title>
+ <content type="html">@&lt;span class=&quot;vcard&quot;&gt;&lt;a href=&quot;/gnu-social/index.php/user/4&quot; class=&quot;url&quot;&gt;&lt;span class=&quot;fn nickname mention&quot;&gt;xujian&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;</content>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/49"/>
+ <status_net notice_id="49"></status_net>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2015-04-12T08:12:00+00:00</published>
+ <updated>2015-04-12T08:12:00+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/7</uri>
+  <name>xujian2</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian2"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian2</poco:preferredUsername>
+  <poco:displayName>xujian2</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian2/subscribers"></followers>
+  <statusnet:profile_info local_id="7"></statusnet:profile_info>
+ </author>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/49"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="/gnu-social/index.php/user/4"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/7.atom</id>
+  <title>xujian2</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian2"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/7.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:16:24+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/49.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/49.atom"/>
+ <statusnet:notice_info local_id="49" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/notice/48</id>
+ <title>New note by xujian2</title>
+ <content type="html">@&lt;span class=&quot;vcard&quot;&gt;&lt;a href=&quot;/gnu-social/index.php/user/4&quot; class=&quot;url&quot;&gt;&lt;span class=&quot;fn nickname mention&quot;&gt;xujian&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; xxx</content>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/48"/>
+ <status_net notice_id="48"></status_net>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2015-04-12T08:11:51+00:00</published>
+ <updated>2015-04-12T08:11:51+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/7</uri>
+  <name>xujian2</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian2"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian2</poco:preferredUsername>
+  <poco:displayName>xujian2</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian2/subscribers"></followers>
+  <statusnet:profile_info local_id="7"></statusnet:profile_info>
+ </author>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/48"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="/gnu-social/index.php/user/4"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/7.atom</id>
+  <title>xujian2</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian2"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/7.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:16:24+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/48.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/48.atom"/>
+ <statusnet:notice_info local_id="48" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/notice/46</id>
+ <title>New note by xujian</title>
+ <content type="html">this is a private</content>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/46"/>
+ <status_net notice_id="46"></status_net>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2015-04-12T08:01:27+00:00</published>
+ <updated>2015-04-12T08:01:27+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/4</uri>
+  <name>xujian</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian</poco:preferredUsername>
+  <poco:displayName>xujian</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian/subscribers"></followers>
+  <statusnet:profile_info local_id="4"></statusnet:profile_info>
+ </author>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/46"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/4.atom</id>
+  <title>xujian</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/4.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:01:27+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/46.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/46.atom"/>
+ <statusnet:notice_info local_id="46" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/notice/45</id>
+ <title>New note by xujian</title>
+ <content type="html">ddd</content>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/45"/>
+ <status_net notice_id="45"></status_net>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2015-04-12T08:00:45+00:00</published>
+ <updated>2015-04-12T08:00:45+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/4</uri>
+  <name>xujian</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian</poco:preferredUsername>
+  <poco:displayName>xujian</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian/subscribers"></followers>
+  <statusnet:profile_info local_id="4"></statusnet:profile_info>
+ </author>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/45"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/4.atom</id>
+  <title>xujian</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/4.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:01:27+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/45.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/45.atom"/>
+ <statusnet:notice_info local_id="45" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <id>http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/rsvp/61b35faf-89f8-408a-9cde-bf94e0d94a70</id>
+ <title></title>
+ <content type="html">admin is attending sada.</content>
+ <link rel="alternate" type="text/html">http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/notice/42</link>
+ <activity:verb>http://activitystrea.ms/schema/1.0/rsvp-yes</activity:verb>
+ <published>2014-12-29T06:20:50+00:00</published>
+ <updated>2014-12-29T06:20:50+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/1</uri>
+  <name>admin</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/admin"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>admin</poco:preferredUsername>
+  <poco:displayName>admin</poco:displayName>
+  <poco:note>ddd</poco:note>
+  <followers url="/gnu-social/index.php/admin/subscribers"></followers>
+  <statusnet:profile_info local_id="1"></statusnet:profile_info>
+ </author>
+ <activity:object>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/event</activity:object-type>
+  <id>/gnu-social/index.php/event/1c28b004-a7be-4664-a0a4-7b42957f710e</id>
+  <title>sada</title>
+  <summary>d</summary>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/notice/36"/>
+  <dtstart xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T06:30:00+00:00</dtstart>
+  <dtend xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T06:30:00+00:00</dtend>
+ </activity:object>
+ <thr:in-reply-to ref="/gnu-social/index.php/event/1c28b004-a7be-4664-a0a4-7b42957f710e" href="/gnu-social/index.php/notice/36"></thr:in-reply-to>
+ <link rel="related" href="/gnu-social/index.php/notice/36"/>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/36"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="/gnu-social/index.php/user/4"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/1.atom</id>
+  <title>admin</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/admin"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/1.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-05-03T07:14:00+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/42.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/42.atom"/>
+ <statusnet:notice_info local_id="42" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <id>http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/rsvp/0f8e10fc-94c0-4849-9e1f-2ee7f2411f54</id>
+ <title></title>
+ <content type="html">admin is attending xxx7.</content>
+ <link rel="alternate" type="text/html">http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/notice/40</link>
+ <activity:verb>http://activitystrea.ms/schema/1.0/rsvp-yes</activity:verb>
+ <published>2014-12-29T06:20:36+00:00</published>
+ <updated>2014-12-29T06:20:36+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/1</uri>
+  <name>admin</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/admin"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>admin</poco:preferredUsername>
+  <poco:displayName>admin</poco:displayName>
+  <poco:note>ddd</poco:note>
+  <followers url="/gnu-social/index.php/admin/subscribers"></followers>
+  <statusnet:profile_info local_id="1"></statusnet:profile_info>
+ </author>
+ <activity:object>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/event</activity:object-type>
+  <id>/gnu-social/index.php/event/187c52ce-9476-4673-9b28-7960f86e70da</id>
+  <title>xxx7</title>
+  <summary>asdasd</summary>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/notice/30"/>
+  <dtstart xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T04:30:00+00:00</dtstart>
+  <dtend xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T04:30:00+00:00</dtend>
+ </activity:object>
+ <thr:in-reply-to ref="/gnu-social/index.php/event/187c52ce-9476-4673-9b28-7960f86e70da" href="/gnu-social/index.php/notice/30"></thr:in-reply-to>
+ <link rel="related" href="/gnu-social/index.php/notice/30"/>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/30"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="/gnu-social/index.php/user/4"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/1.atom</id>
+  <title>admin</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/admin"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/1.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-05-03T07:14:00+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/40.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/40.atom"/>
+ <statusnet:notice_info local_id="40" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <id>http://localhost/gnu-social/http://localhost/gnu-social/tag:localhost,2014-11-09:gnu-social:join:1:1:2014-11-09T04:02:08+00:00</id>
+ <title></title>
+ <content type="html">&lt;a href=&quot;/gnu-social/index.php/admin&quot;&gt;admin&lt;/a&gt; joined the group &lt;a href=&quot;/gnu-social/index.php/group/mynew&quot;&gt;mynew&lt;/a&gt;.</content>
+ <link rel="alternate" type="text/html">http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/notice/39</link>
+ <activity:verb>http://activitystrea.ms/schema/1.0/join</activity:verb>
+ <published>2014-11-09T04:02:08+00:00</published>
+ <updated>2014-11-09T04:02:08+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/1</uri>
+  <name>admin</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/admin"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>admin</poco:preferredUsername>
+  <poco:displayName>admin</poco:displayName>
+  <poco:note>ddd</poco:note>
+  <followers url="/gnu-social/index.php/admin/subscribers"></followers>
+  <statusnet:profile_info local_id="1"></statusnet:profile_info>
+ </author>
+ <activity:object>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/group</activity:object-type>
+  <id>/gnu-social/index.php/group/1/id</id>
+  <title>mynew</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/group/1/id"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="http://localhost/gnu-social/avatar/1-96-20141109040227.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="http://localhost/gnu-social/avatar/1-48-20141109040227.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="http://localhost/gnu-social/avatar/1-24-20141109040227.png"/>
+  <poco:preferredUsername>mynew</poco:preferredUsername>
+  <poco:displayName>mynew</poco:displayName>
+ </activity:object>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/39"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/group" href="/gnu-social/index.php/group/1/id"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/1.atom</id>
+  <title>admin</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/admin"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/1.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-05-03T07:14:00+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/39.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/39.atom"/>
+ <statusnet:notice_info local_id="39" source="activity"></statusnet:notice_info>
+</entry>
+<entry>
+ <id>http://localhost/gnu-social/http://localhost/gnu-social/tag:localhost,2014-11-01:gnu-social:follow:4:7:2014-11-01T06:24:53+00:00</id>
+ <title></title>
+ <content type="html">&lt;a href=&quot;/gnu-social/index.php/xujian&quot;&gt;xujian&lt;/a&gt; started following &lt;a href=&quot;/gnu-social/index.php/xujian2&quot;&gt;xujian2&lt;/a&gt;.</content>
+ <link rel="alternate" type="text/html">http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/notice/38</link>
+ <activity:verb>http://activitystrea.ms/schema/1.0/follow</activity:verb>
+ <published>2014-11-01T06:24:53+00:00</published>
+ <updated>2014-11-01T06:24:53+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/4</uri>
+  <name>xujian</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian</poco:preferredUsername>
+  <poco:displayName>xujian</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian/subscribers"></followers>
+  <statusnet:profile_info local_id="4"></statusnet:profile_info>
+ </author>
+ <activity:object>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <id>tag:localhost,2014-11-01:gnu-social:follow:4:7:2014-11-01T06:24:53+00:00</id>
+  <title>New person by xujian</title>
+  <content type="html">&lt;a href=&quot;/gnu-social/index.php/xujian&quot;&gt;xujian&lt;/a&gt; started following &lt;a href=&quot;/gnu-social/index.php/xujian2&quot;&gt;xujian2&lt;/a&gt;.</content>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/notice/38"/>
+  <status_net notice_id="38"></status_net>
+ </activity:object>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/38"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="/gnu-social/index.php/user/7"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/4.atom</id>
+  <title>xujian</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/4.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:01:27+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/38.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/38.atom"/>
+ <statusnet:notice_info local_id="38" source="activity"></statusnet:notice_info>
+</entry>
+<entry>
+ <id>http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/rsvp/4fb9d5de-9e2f-4c22-bb4f-8df83f69145a</id>
+ <title></title>
+ <content type="html">xujian is attending sada.</content>
+ <link rel="alternate" type="text/html">http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/notice/37</link>
+ <activity:verb>http://activitystrea.ms/schema/1.0/rsvp-yes</activity:verb>
+ <published>2014-10-25T06:23:31+00:00</published>
+ <updated>2014-10-25T06:23:31+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/4</uri>
+  <name>xujian</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian</poco:preferredUsername>
+  <poco:displayName>xujian</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian/subscribers"></followers>
+  <statusnet:profile_info local_id="4"></statusnet:profile_info>
+ </author>
+ <activity:object>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/event</activity:object-type>
+  <id>/gnu-social/index.php/event/1c28b004-a7be-4664-a0a4-7b42957f710e</id>
+  <title>sada</title>
+  <summary>d</summary>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/notice/36"/>
+  <dtstart xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T06:30:00+00:00</dtstart>
+  <dtend xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T06:30:00+00:00</dtend>
+ </activity:object>
+ <thr:in-reply-to ref="/gnu-social/index.php/event/1c28b004-a7be-4664-a0a4-7b42957f710e" href="/gnu-social/index.php/notice/36"></thr:in-reply-to>
+ <link rel="related" href="/gnu-social/index.php/notice/36"/>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/36"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="/gnu-social/index.php/user/4"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/4.atom</id>
+  <title>xujian</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/4.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:01:27+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/37.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/37.atom"/>
+ <statusnet:notice_info local_id="37" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/event</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/event/1c28b004-a7be-4664-a0a4-7b42957f710e</id>
+ <title>sada</title>
+ <summary>d</summary>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/36"/>
+ <dtstart xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T06:30:00+00:00</dtstart>
+ <dtend xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T06:30:00+00:00</dtend>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2014-10-25T06:23:31+00:00</published>
+ <updated>2014-10-25T06:23:31+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/4</uri>
+  <name>xujian</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian</poco:preferredUsername>
+  <poco:displayName>xujian</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian/subscribers"></followers>
+  <statusnet:profile_info local_id="4"></statusnet:profile_info>
+ </author>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/36"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/4.atom</id>
+  <title>xujian</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/4.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:01:27+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/36.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/36.atom"/>
+ <statusnet:notice_info local_id="36" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <id>http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/rsvp/acbeecb7-f03d-4e79-85c2-db89626f96ed</id>
+ <title></title>
+ <content type="html">xujian is attending xxx7.</content>
+ <link rel="alternate" type="text/html">http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/notice/31</link>
+ <activity:verb>http://activitystrea.ms/schema/1.0/rsvp-yes</activity:verb>
+ <published>2014-10-25T04:03:37+00:00</published>
+ <updated>2014-10-25T04:03:37+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/4</uri>
+  <name>xujian</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian</poco:preferredUsername>
+  <poco:displayName>xujian</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian/subscribers"></followers>
+  <statusnet:profile_info local_id="4"></statusnet:profile_info>
+ </author>
+ <activity:object>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/event</activity:object-type>
+  <id>/gnu-social/index.php/event/187c52ce-9476-4673-9b28-7960f86e70da</id>
+  <title>xxx7</title>
+  <summary>asdasd</summary>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/notice/30"/>
+  <dtstart xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T04:30:00+00:00</dtstart>
+  <dtend xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T04:30:00+00:00</dtend>
+ </activity:object>
+ <thr:in-reply-to ref="/gnu-social/index.php/event/187c52ce-9476-4673-9b28-7960f86e70da" href="/gnu-social/index.php/notice/30"></thr:in-reply-to>
+ <link rel="related" href="/gnu-social/index.php/notice/30"/>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/30"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="/gnu-social/index.php/user/4"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/4.atom</id>
+  <title>xujian</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/4.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:01:27+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/31.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/31.atom"/>
+ <statusnet:notice_info local_id="31" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/event</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/event/187c52ce-9476-4673-9b28-7960f86e70da</id>
+ <title>xxx7</title>
+ <summary>asdasd</summary>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/30"/>
+ <dtstart xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T04:30:00+00:00</dtstart>
+ <dtend xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T04:30:00+00:00</dtend>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2014-10-25T04:03:37+00:00</published>
+ <updated>2014-10-25T04:03:37+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/4</uri>
+  <name>xujian</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian</poco:preferredUsername>
+  <poco:displayName>xujian</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian/subscribers"></followers>
+  <statusnet:profile_info local_id="4"></statusnet:profile_info>
+ </author>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/30"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/4.atom</id>
+  <title>xujian</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/4.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:01:27+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/30.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/30.atom"/>
+ <statusnet:notice_info local_id="30" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <id>http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/rsvp/4f804c55-8acf-48e8-8463-f200d238a4e4</id>
+ <title></title>
+ <content type="html">xujian is attending xxx5.</content>
+ <link rel="alternate" type="text/html">http://localhost/gnu-social/http://localhost/gnu-social//gnu-social/index.php/notice/27</link>
+ <activity:verb>http://activitystrea.ms/schema/1.0/rsvp-yes</activity:verb>
+ <published>2014-10-25T03:59:31+00:00</published>
+ <updated>2014-10-25T03:59:31+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/4</uri>
+  <name>xujian</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian</poco:preferredUsername>
+  <poco:displayName>xujian</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian/subscribers"></followers>
+  <statusnet:profile_info local_id="4"></statusnet:profile_info>
+ </author>
+ <activity:object>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/event</activity:object-type>
+  <id>/gnu-social/index.php/event/8fb80fdd-895d-4cb8-a6ca-5840a994b350</id>
+  <title>xxx5</title>
+  <summary>xxx</summary>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/notice/26"/>
+  <dtstart xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T04:00:00+00:00</dtstart>
+  <dtend xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T04:00:00+00:00</dtend>
+ </activity:object>
+ <thr:in-reply-to ref="/gnu-social/index.php/event/8fb80fdd-895d-4cb8-a6ca-5840a994b350" href="/gnu-social/index.php/notice/26"></thr:in-reply-to>
+ <link rel="related" href="/gnu-social/index.php/notice/26"/>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/26"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="/gnu-social/index.php/user/4"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/4.atom</id>
+  <title>xujian</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/4.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:01:27+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/27.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/27.atom"/>
+ <statusnet:notice_info local_id="27" source="web"></statusnet:notice_info>
+</entry>
+<entry>
+ <activity:object-type>http://activitystrea.ms/schema/1.0/event</activity:object-type>
+ <id>http://localhost/gnu-social//gnu-social/index.php/event/8fb80fdd-895d-4cb8-a6ca-5840a994b350</id>
+ <title>xxx5</title>
+ <summary>xxx</summary>
+ <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/notice/26"/>
+ <dtstart xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T04:00:00+00:00</dtstart>
+ <dtend xmlns="urn:ietf:params:xml:ns:xcal">2014-10-25T04:00:00+00:00</dtend>
+ <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+ <published>2014-10-25T03:59:31+00:00</published>
+ <updated>2014-10-25T03:59:31+00:00</updated>
+ <author>
+  <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+  <uri>http://localhost/gnu-social//gnu-social/index.php/user/4</uri>
+  <name>xujian</name>
+  <link rel="alternate" type="text/html" href="http://localhost/gnu-social//gnu-social/index.php/xujian"/>
+  <link rel="avatar" type="image/png" media:width="96" media:height="96" href="/gnu-social/theme/dark/default-avatar-profile.png"/>
+  <link rel="avatar" type="image/png" media:width="48" media:height="48" href="/gnu-social/theme/dark/default-avatar-stream.png"/>
+  <link rel="avatar" type="image/png" media:width="24" media:height="24" href="/gnu-social/theme/dark/default-avatar-mini.png"/>
+  <poco:preferredUsername>xujian</poco:preferredUsername>
+  <poco:displayName>xujian</poco:displayName>
+  <followers url="/gnu-social/index.php/xujian/subscribers"></followers>
+  <statusnet:profile_info local_id="4"></statusnet:profile_info>
+ </author>
+ <link rel="ostatus:conversation" href="/gnu-social/index.php/conversation/26"/>
+ <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+ <source>
+  <id>/gnu-social/index.php/api/statuses/user_timeline/4.atom</id>
+  <title>xujian</title>
+  <link rel="alternate" type="text/html" href="/gnu-social/index.php/xujian"/>
+  <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/user_timeline/4.atom"/>
+  <link rel="license" href="http://creativecommons.org/licenses/by/3.0/"/>
+  <icon>/gnu-social/theme/dark/default-avatar-profile.png</icon>
+  <updated>2015-04-12T08:01:27+00:00</updated>
+ </source>
+ <link rel="self" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/26.atom"/>
+ <link rel="edit" type="application/atom+xml" href="/gnu-social/index.php/api/statuses/show/26.atom"/>
+ <statusnet:notice_info local_id="26" source="web"></statusnet:notice_info>
+</entry>
+</feed>
