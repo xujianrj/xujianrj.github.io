@@ -1,0 +1,15 @@
+{
+	"status": 200,
+	"message": "",
+	"result":
+	[
+		{
+			"Id": 1,
+			"Name": "主动脉接入随访"
+		},
+		{
+			"CategoryId": 2,
+			"Name": "肾脏移植随访"
+		}
+	]
+}
