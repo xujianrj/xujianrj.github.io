@@ -5,227 +5,97 @@
         [
             {
                 "Id": "2133",
-                "ReportName": "主动脉介入随访内容",
-                "PatientId": "2133",
-                "PatientName": "李铭",
+                "Name": "李铭",
                 "MDRID": "2511057",
                 "Gender": "M",
                 "Birthday": "38天",
+                "EncounterCount": 1,
+                "CRFCount": 1,
                 "CreatedName": "李敬东",
                 "CreatedDate": "2015-07-08 08:23",
                 "UpdatedName": "李敬东",
                 "UpdatedDate": "2015-07-08 08:23",
-                "Status": "0"
+                "CaseHistory": [
+                    {
+                        "Id": "1",
+                        "Name": "7月份腹部CT复查",
+                        "Images": [
+                            {
+                                "Id": "1",
+                                "Url": "http://www.biji.tk/patient/mock/case1.jpg"
+                            },
+                            {
+                                "Id": "2",
+                                "Url": "http://www.biji.tk/patient/mock/case2.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "Id": "2",
+                        "Name": "8月份腹部CT复查",
+                        "Images": [
+                            {
+                                "Id": "3",
+                                "Url": "http://www.biji.tk/patient/mock/case3.jpg"
+                            },
+                            {
+                                "Id": "4",
+                                "Url": "http://www.biji.tk/patient/mock/case4.jpg"
+                            },
+                            {
+                                "Id": "5",
+                                "Url": "http://www.biji.tk/patient/mock/case5.jpg"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "Id": "2134",
-                "ReportName": "肾脏移植随访内容",
-                "PatientId": "2134",
-                "PatientName": "王晶晶",
-                "MDRID": "2620967",
-                "Gender": "F",
-                "Birthday": "21岁",
+                "Name": "张武",
+                "MDRID": "2511057",
+                "Gender": "M",
+                "Birthday": "38天",
+                "EncounterCount": 1,
+                "CRFCount": 1,
                 "CreatedName": "李敬东",
-                "CreatedDate": "2015-07-08 07:13",
+                "CreatedDate": "2015-07-08 08:23",
                 "UpdatedName": "李敬东",
-                "UpdatedDate": "2015-07-08 07:23",
-                "Status": "0"
-            },
-            {
-                "Id": "2142",
-                "ReportName": "甲状腺切除随访内容",
-                "PatientId": "2142",
-                "PatientName": "赵跃",
-                "MDRID": "9657467",
-                "Gender": "F",
-                "Birthday": "31岁",
-                "CreatedName": "赵俊",
-                "CreatedDate": "2015-07-08 07:05",
-                "UpdatedName": "赵俊",
-                "UpdatedDate": "2015-07-08 07:15",
-                "Status": "1"
-            },
-            {
-                "Id": "2143",
-                "ReportName": "肾脏移植登记表",
-                "PatientId": "2143",
-                "PatientName": "张海磊",
-                "MDRID": "2657461",
-                "Gender": "M",
-                "Birthday": "7月",
-                "CreatedName": "林倩",
-                "CreatedDate": "2015-07-08 06:55",
-                "UpdatedName": "林倩",
-                "UpdatedDate": "2015-07-08 07:05",
-                "Status": "1"
-            },
-            {
-                "Id": "2144",
-                "ReportName": "脂肪肝随访内容",
-                "PatientId": "2144",
-                "PatientName": "魏雪漫",
-                "MDRID": "4569512",
-                "Gender": "F",
-                "Birthday": "8月",
-                "CreatedName": "赵俊",
-                "CreatedDate": "2015-07-08 06:50",
-                "UpdatedName": "赵俊",
-                "UpdatedDate": "2015-07-08 07:05",
-                "Status": "0"
-            },
-            {
-                "Id": "2145",
-                "ReportName": "垂体瘤登记表",
-                "PatientId": "2145",
-                "PatientName": "常国斌",
-                "MDRID": "8963654",
-                "Gender": "M",
-                "Birthday": "82天",
-                "CreatedName": "赵俊",
-                "CreatedDate": "2015-07-08 06:46",
-                "UpdatedName": "赵俊",
-                "UpdatedDate": "2015-07-08 07:02",
-                "Status": "1"
-            },
-            {
-                "Id": "2146",
-                "ReportName": "三叉神经痛随访表",
-                "PatientId": "2146",
-                "PatientName": "金明华",
-                "MDRID": "3263976",
-                "Gender": "F",
-                "Birthday": "3月",
-                "CreatedName": "李敬东",
-                "CreatedDate": "2015-07-08 06:46",
-                "UpdatedName": "李敬东",
-                "UpdatedDate": "2015-07-08 06:46",
-                "Status": "1"
-            },
-            {
-                "Id": "2147",
-                "ReportName": "肝移植随访表（2015版）",
-                "PatientId": "2147",
-                "PatientName": "赵亮",
-                "MDRID": "1563985",
-                "Gender": "M",
-                "Birthday": "12岁",
-                "CreatedName": "李敬东",
-                "CreatedDate": "2015-07-08 06:40",
-                "UpdatedName": "李敬东",
-                "UpdatedDate": "2015-07-08 06:40",
-                "Status": "0"
-            },
-            {
-                "Id": "2148",
-                "ReportName": "膝关节置换登记表",
-                "PatientId": "2148",
-                "PatientName": "李婧蕊",
-                "MDRID": "4583663",
-                "Gender": "F",
-                "Birthday": "21岁",
-                "CreatedName": "赵俊",
-                "CreatedDate": "2015-07-08 06:35",
-                "UpdatedName": "赵俊",
-                "UpdatedDate": "2015-07-08 06:35",
-                "Status": "1"
-            },
-            {
-                "Id": "2149",
-                "ReportName": "骨癌随访内容",
-                "PatientId": "2149",
-                "PatientName": "杨兵",
-                "MDRID": "8632112",
-                "Gender": "M",
-                "Birthday": "11岁",
-                "CreatedName": "林倩",
-                "CreatedDate": "2015-07-08 06:32",
-                "UpdatedName": "林倩",
-                "UpdatedDate": "2015-07-08 06:45",
-                "Status": "0"
-            },
-            {
-                "Id": "2150",
-                "ReportName": "高血压随访内容",
-                "PatientId": "2150",
-                "PatientName": "马诺",
-                "MDRID": "6987453",
-                "Gender": "F",
-                "Birthday": "14岁",
-                "CreatedName": "李敬东",
-                "CreatedDate": "2015-07-08 06:28",
-                "UpdatedName": "李敬东",
-                "UpdatedDate": "2015-07-08 06:28",
-                "Status": "1"
-            },
-            {
-                "Id": "2151",
-                "ReportName": "重症肌无力登记表",
-                "PatientId": "2151",
-                "PatientName": "宋子淇",
-                "MDRID": "1236963",
-                "Gender": "F",
-                "Birthday": "35岁",
-                "CreatedName": "赵俊",
-                "CreatedDate": "2015-07-08 06:22",
-                "UpdatedName": "赵俊",
-                "UpdatedDate": "2015-07-08 06:55",
-                "Status": "0"
-            },
-            {
-                "Id": "2152",
-                "ReportName": "心脏搭桥手术术后随访",
-                "PatientId": "2152",
-                "PatientName": "韦国兴",
-                "MDRID": "9657467",
-                "Gender": "M",
-                "Birthday": "3月",
-                "CreatedName": "林倩",
-                "CreatedDate": "2015-07-07 17:21",
-                "UpdatedName": "林倩",
-                "UpdatedDate": "2015-07-07 17:36",
-                "Status": "0"
-            },
-            {
-                "Id": "2153",
-                "ReportName": "腹腔镜手术登记表",
-                "PatientId": "2153",
-                "PatientName": "曹彬彬",
-                "MDRID": "9657467",
-                "Gender": "F",
-                "Birthday": "9岁",
-                "CreatedName": "赵俊",
-                "CreatedDate": "2015-07-07 17:10",
-                "UpdatedName": "赵俊",
-                "UpdatedDate": "2015-07-07 17:12",
-                "Status": "0"
-            },
-            {
-                "Id": "2154",
-                "ReportName": "主动脉疾病登记表",
-                "PatientId": "2154",
-                "PatientName": "肖志鹏",
-                "MDRID": "8654742",
-                "Gender": "M",
-                "Birthday": "11岁",
-                "CreatedName": "林倩",
-                "CreatedDate": "2015-07-07 16:05",
-                "UpdatedName": "林倩",
-                "UpdatedDate": "2015-07-07 17:11",
-                "Status": "0"
-            },
-            {
-                "Id": "2155",
-                "ReportName": "结肠癌放疗后随访表",
-                "PatientId": "2155",
-                "PatientName": "徐玲",
-                "MDRID": "7563656",
-                "Gender": "F",
-                "Birthday": "20岁",
-                "CreatedName": "胡琳琳",
-                "CreatedDate": "2015-07-06 07:03",
-                "UpdatedName": "胡琳琳",
-                "UpdatedDate": "2015-07-06 07:16",
-                "Status": "0"
+                "UpdatedDate": "2015-07-08 08:23",
+                "CaseHistory": [
+                    {
+                        "Id": "1",
+                        "Name": "7月份腹部CT复查",
+                        "Images": [
+                            {
+                                "Id": "1",
+                                "Url": "http://www.biji.tk/patient/mock/case1.jpg"
+                            },
+                            {
+                                "Id": "2",
+                                "Url": "http://www.biji.tk/patient/mock/case2.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "Id": "2",
+                        "Name": "8月份腹部CT复查",
+                        "Images": [
+                            {
+                                "Id": "3",
+                                "Url": "http://www.biji.tk/patient/mock/case3.jpg"
+                            },
+                            {
+                                "Id": "4",
+                                "Url": "http://www.biji.tk/patient/mock/case4.jpg"
+                            },
+                            {
+                                "Id": "5",
+                                "Url": "http://www.biji.tk/patient/mock/case5.jpg"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
 }

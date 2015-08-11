@@ -2,9 +2,13 @@
 	"status": 200,
 	"message": "",
 	"result":
-	[
 		{
-			"Id": "TODO"//TOOD
+			"Id": "1",
+            "RealName": "李敬东",
+            "Hospital": "北京协和医院",
+            "Department": "儿科",
+            "ProfLevelCID": "主任医师",
+            "Skilled":"①高危妊娠管理；②产科出血及妊娠合并症；③并发症的诊治",
+            "Experiment":"1983年毕业于首都医科大学，北京妇产医院产科副主任。"
 		}
-	]
 }
