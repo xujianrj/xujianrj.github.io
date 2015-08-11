@@ -1,13 +1,13 @@
 {
-	"status": 200,
-	"message": "登录成功",
-	"result":
-	{
-		"UserId": 1,
-		"UserName": "ljd",
-		"RealName": "张幂",
+    "status": 200,
+    "message": "登录成功",
+    "result":
+    {
+        "UserId": 1,
+        "UserName": "ljd",
+        "RealName": "张幂",
         "MDRID": 110112119,
-		"Department": "儿科",
-		"Token": "a"
-	}
+        "Department": "儿科",
+        "Token": "a"
+    }
 }

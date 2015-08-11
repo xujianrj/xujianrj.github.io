@@ -1,0 +1,18 @@
+{
+	"status": 200,
+	"message": "",
+	"result":
+	[
+		{
+			"Id": "2133",
+			"Name": "主动脉介入随访内容",
+            "PatientId":"325",
+            "PatientName":"李超",
+			"CreatedName": "李敬东",
+			"CreatedDate": "2015-07-08 08:23",
+			"UpdatedName": "李敬东",
+			"UpdatedDate": "2015-07-08 08:23",
+            "Template":"{这里是详细的xml格式报告内容}"
+		}
+	]
+}
