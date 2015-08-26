@@ -1,4 +1,29 @@
 [
+
+  {
+    "name":"JS使用模板快速填充HTML控件数据",
+    "url":"http://freshflower.iteye.com/blog/2120268",
+    "date":"2015/08/21",
+    "desc":"在开发WEB前端页面时，经常会根据动态的数据加载一些HTML控件，如果把这些HTML代码全写入JS中，根据不同的数据显示的控件也不一样，极不利于代码的维护。使用模板方法，直接把数据往里面套就好了"
+  },
+  {
+    "name":"微信公众平台OAuth2.0网页授权php示例",
+    "url":"http://huangqiqing123.iteye.com/blog/2005770",
+    "date":"2015/08/20",
+    "desc":"1、配置授权回调页面域名，如 www.aaa.com 2、模拟公众号的第三方网页，http://biji.tk/getToken.php"
+  },
+    {
+        "name":"为爱而生",
+        "url":"150819.html",
+        "date":"2015/08/19",
+        "desc":"“當你戴上耳機把相信交給我們你也會是五月天的一員。” 這句出現在神舞專輯文案裏面的句子曾經感動多我很多次。"
+    },
+  {
+    "name":"Git:The following untracked working tree files...",
+    "url":"index2.html",
+    "date":"2015/08/04",
+    "desc":"git clean -d -fx"
+  },
     {
         "name":"美国的的高血压标准放宽了",
         "url":"http://mp.weixin.qq.com/s?__biz=MzA5NDQwNjE2OQ==&mid=207199323&idx=1&sn=0d898d7c46159fadc254e87d39341a28&key=0acd51d81cb052bc2c0ac108e3b558d389c5f7ed6183d5019d7b839b090bff5a08ee2cf2c61316541bb61a561398d364&ascene=0&uin=MzU0ODI0ODc1&devicetype=iMac+MacBookPro11%2C3+OSX+OSX+10.10.2+build(14C109)&version=11020012&pass_ticket=vKvxIE0j%2BKSgVnJy4Tx4HL7vrg%2FDs%2BDDPJZD%2BIIRPkHbx%2BNTSoi8a%2FHyvuGJCSmV",

@@ -1,9 +1,10 @@
-//<!--<script type="text/javascript" charset="utf-8" src="./util/stringhelper.js"></script>-->
-//    <!--<script type="text/javascript" src="util/sha1.js"></script>-->
-//    <!--<script type="text/javascript" charset="utf-8" src="./rest/Rest.js"></script>-->
+//./util/stringhelper
+//    <!--<script type="text/javascript" src="util/sha1
+//    ./rest/Rest
 require.config({
+    waitSeconds:100,
     paths: {
-        "jqaf": "../appframework",
+        "jqaf": "../appframework.min",
         "appframeworkui": "../ui/appframework.ui",
         "stringhelper": "stringhelper",
         "sha1": "sha1",
@@ -13,17 +14,39 @@ require.config({
         'server': '../app/server',
         'viewController': '../app/viewController',
         'application': '../app/application',
-        'yiMaiViewController': '../app/yiMaiViewController',
-        'cordova': '../cordova'
+'actionsheet':'../plugins/af.actionsheet',
+'css3animate':'../plugins/af.css3animate',
+//./plugins/af.passwordBox
+'scroller':'../plugins/af.scroller',
+//./plugins/af.selectBox
+'touchEvents':'../plugins/af.touchEvents',
+'touchLayer':'../plugins/af.touchLayer',
+//./plugins/af.popup
+'beforePageLoad':'../app/beforePageLoad',
+        'yiMaiViewController': '../app/yiMaiViewController'
     },
     shim: {
         appframeworkui: {
             deps: [
+                'touchEvents',
+                'touchLayer',
+                'scroller'
+            ]
+        },
+        touchEvents:{
+            deps: [
                 'jqaf'
             ]
         },
+        beforePageLoad:{
+            deps: [
+                'appframeworkui'
+            ]
+        },
+
         viewController: {
             deps: [
+                'appframeworkui',
                 'application',
                 'server'
             ]
@@ -52,10 +75,17 @@ require.config({
 
 require(
     [
-//        'jqaf','appframeworkui',
-        'application', "sha1", "Rest", "prepareData", "jsonpHelper", 'server', 'viewController', 'yiMaiViewController', 'cordova'],
+        'jqaf','appframeworkui','scroller','touchEvents','touchLayer',
+        'beforePageLoad',
+        'application', "sha1", "Rest", "prepareData", "jsonpHelper",
+        'server', 'viewController', 'yiMaiViewController','css3animate'
+    ],
     function () {
+        //debugger;
+        $.ui.launch();
+        $("#splashscreen").remove();
         $.ui.ready(function () {
+            //debugger;
 //            MedicalHome.viewController.mingYiHui.renderSection();
             MedicalHome.viewController.mingYiHui.renderAll();
             MedicalHome.viewController.yiMai.loadContacts();
@@ -82,6 +112,7 @@ require(
             }
             $.ui.setLeftSideMenuWidth($("#afui").width()-60);//设置左边菜单的宽度为 整个页面的宽度减去60px;
             navigator.splashscreen.hide();
+
         });
 
 

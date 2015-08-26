@@ -12,6 +12,36 @@
 
     <!--
   <link rel="stylesheet" type="text/css" href="css/af.ui.css" title="default" />-->
+
+
+    <script type="text/javascript" charset="utf-8" data-main="./util/config.js" src="./util/require.js"></script>
+
+    <!--<script type="text/javascript" charset="utf-8" src="./appframework.min.js"></script>-->
+
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/appframework.ui.js"></script>-->
+
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.actionsheet.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.css3animate.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.passwordBox.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.scroller.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.selectBox.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.touchEvents.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.touchLayer.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.popup.js"></script>-->
+    <!--<script type="text/javascript" src="./app/beforePageLoad.js"></script>-->
+
+    <!--<script type="text/javascript" charset="utf-8" src="./build/af.plugins.min.js"></script>-->
+    <!-- <script type="text/javascript" charset="utf-8" src="./ui/transitions/all.js"></script> -->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/fade.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/flip.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/pop.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/slide.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/slideDown.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/slideUp.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.slidemenu.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.carousel.js"></script>-->
+
+      <!--<script type="text/javascript" src="cordova.js"></script>-->
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/appframework.css"/>
     <link rel="stylesheet" type="text/css" href="css/lists.css"/>
@@ -26,34 +56,36 @@
     <link rel="stylesheet" type="text/css" href="plugins/css/af.selectBox.css"/>
     <link rel="stylesheet" type="text/css" href="css/medicalHome.css"/>
     <link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+<style>
+    #splashscreen {
+        position:absolute;
+        top:0;
+        bottom:0;
+        width:100%;
+        left:0;
+        min-height:120%;
+        background:rgba(29,29,28,1) !important;
+        color:white !important;
+        font-size:30px;
+        text-align:center;
+        z-index:9999;
+        display:block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-top:80px !important;
+    }
 
-    <script type="text/javascript" charset="utf-8" src="./appframework.js"></script>
-    <script type="text/javascript" charset="utf-8" src="./plugins/af.actionsheet.js"></script>
-    <script type="text/javascript" charset="utf-8" src="./plugins/af.css3animate.js"></script>
-    <script type="text/javascript" charset="utf-8" src="./plugins/af.passwordBox.js"></script>
-    <script type="text/javascript" charset="utf-8" src="./plugins/af.scroller.js"></script>
-    <script type="text/javascript" charset="utf-8" src="./plugins/af.selectBox.js"></script>
-    <script type="text/javascript" charset="utf-8" src="./plugins/af.touchEvents.js"></script>
-    <script type="text/javascript" charset="utf-8" src="./plugins/af.touchLayer.js"></script>
-    <script type="text/javascript" charset="utf-8" src="./plugins/af.popup.js"></script>
-
-    <script type="text/javascript" charset="utf-8" src="./ui/appframework.ui.js"></script>
-    <!-- <script type="text/javascript" charset="utf-8" src="./ui/transitions/all.js"></script> -->
-    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/fade.js"></script>-->
-    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/flip.js"></script>-->
-    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/pop.js"></script>-->
-    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/slide.js"></script>-->
-    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/slideDown.js"></script>-->
-    <!--<script type="text/javascript" charset="utf-8" src="./ui/transitions/slideUp.js"></script>-->
-    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.slidemenu.js"></script>-->
-    <!--<script type="text/javascript" charset="utf-8" src="./plugins/af.carousel.js"></script>-->
-
-    <script type="text/javascript" src="./app/beforePageLoad.js"></script>
-    <script type="text/javascript" charset="utf-8" data-main="./util/config.js" src="./util/require.js"></script>
-    <!--<script type="text/javascript" src="cordova.js"></script>-->
-
+</style>
 </head>
 <body>
+<div id="splashscreen" class='ui-loader heavy'>
+    App Framework
+    <br>
+    <br>
+    <span class='ui-icon ui-icon-loading spin'></span>
+    <h1>Starting app</h1>
+
+</div>
 <div id="afui" class="ios7">
     <header id="common_header">
         <!--TODO handle the search function-->

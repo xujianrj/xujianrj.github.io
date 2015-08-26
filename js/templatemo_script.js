@@ -23,9 +23,9 @@ jQuery(function($) {
             slideshow: false,
             sync: "#carousel",
             start: function(slider){
-                $('#status').fadeOut(); // will first fade out the loading animation
-                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-                $('#main-wrapper').delay(350).css({'overflow':'visible'});
+                //$('#status').fadeOut(); // will first fade out the loading animation
+                //$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                //$('#main-wrapper').delay(350).css({'overflow':'visible'});
             }
         });
     });
@@ -48,7 +48,7 @@ jQuery(function($) {
 
         // backstretch for background image
         var defaultImgSrc = $('img.main-img').attr('src');
-        $.backstretch(defaultImgSrc, {speed: 400});
+        $.backstretch(defaultImgSrc, {speed: 10});
 
         $(".nav a").on('click',function(e){
             if( $(this).hasClass("external") ) {
@@ -103,11 +103,11 @@ var map = '';
 
 function initialize() {
     return;
-    var mapOptions = {
-      zoom: 14,
-      center: new google.maps.LatLng(16.8496189,96.1288854)
-  };
-  map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
+//    var mapOptions = {
+//      zoom: 14,
+//      center: new google.maps.LatLng(16.8496189,96.1288854)
+//  };
+//  map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
 }
 
 function loadGoogleMap(){
