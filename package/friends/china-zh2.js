@@ -1,6 +1,6 @@
 ﻿(function () {
     var uStates = {};
-    d3.json('location.json', function (error, svgData) {
+    d3.json('friends.json', function (error, svgData) {
         var uStatePaths = svgData;
         uStates.draw = function (id, data, toolTip) {
             function mouseOver(d) {
