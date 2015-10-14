@@ -1,9 +1,12 @@
 ﻿(function () {
     var uStates = {};
-    d3.json('friends.json', function (error, svgData) {
+    d3.json('0312.json', function (error, svgData) {
         var uStatePaths = svgData;
         uStates.draw = function (id, data, toolTip) {
             function mouseOver(d) {
+                if(typeof (d.friends)==='undefined'||d.friends.length<=0){
+                    return;
+                }
                 d3.select("#tooltip").transition().duration(200).style("opacity", .9);
 
                 d3.select("#tooltip").html(toolTip(d.n, data[d.id],d))
@@ -26,21 +29,16 @@
                 .on("mouseover", mouseOver).on("mouseout", mouseOut);
         }
         window.uStates = uStates;
-        function tooltipHtml(n, d,data) {    /* function to create html content string in tooltip div. */
+        function tooltipHtml(n, d,data) {
             var friends='';
             if(typeof (data.friends)!='undefined'){
                 friends=data.friends;
             }
             return "<h4>" + n + "</h4><table>" +
-                "<tr style='white-space: nowrap;'><td>基友：</td><td><a  style='text-decoration:inherit;color: #2587B6;' href='http://www.baidu.com' >" + friends + "</a></td></tr>" +
+                "<tr style='white-space: nowrap;'><td>基友：</td><td><a  style='text-decoration:inherit;color: #2587B6;' href='#' >" + friends + "</a></td></tr>" +
                 "</table>";
         }
 
-        var sampleData = [];
-        /* Sample random data. */
-        //['JXI', 'LIA', 'TIB', 'NMG', 'SHH', 'CHQ', 'XIN', 'SHD', 'HEN', 'GUD', 'GUI', 'BEJ', 'MAC', 'TAJ',
-        //    'HLJ', 'HEB', 'ZHJ', 'ANH', 'GXI', 'HAI', 'JIL', 'SHX', 'HUN', 'YUN', 'FUJ', 'HUB',
-        //    'SHA', 'HKG', 'QIH', 'GAN', 'JSU', 'SCH', 'NXA', 'TAI']
         var totalFriends=0;
         uStatePaths.forEach(function (d) {
                 var friendCount =0;
@@ -56,7 +54,8 @@
                 //};
             d.color=d3.interpolate("#edf0f5","#32aae2")(friendCount / 10);
             });
-        d3.select("#total").html('总计有'+totalFriends+'个认识的人.涛涛，祥子坐标未知');
+        d3.select("#total").html('总计有'+totalFriends+'个认识的人' );
+        //'.涛涛，祥子坐标未知');
         /* draw states on id #statesvg */
         uStates.draw("#statesvg", uStatePaths, tooltipHtml);
     });
