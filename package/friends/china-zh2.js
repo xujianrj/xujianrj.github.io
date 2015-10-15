@@ -33,9 +33,14 @@
             var friends='';
             if(typeof (data.friends)!='undefined'){
                 friends=data.friends;
+                var friendHtml='';
+                for(var index=0;index<data.friends.length;index++){
+                    friendHtml+="<tr style='white-space: nowrap;'><td><a  style='text-decoration:inherit;color: #2587B6;' href='#' >" + data.friends[index] + "</a></td></tr>" ;
+                }
+
             }
             return "<h4>" + n + "</h4><table>" +
-                "<tr style='white-space: nowrap;'><td>基友：</td><td><a  style='text-decoration:inherit;color: #2587B6;' href='#' >" + friends + "</a></td></tr>" +
+                friendHtml
                 "</table>";
         }
 
@@ -54,7 +59,7 @@
                 //};
             d.color=d3.interpolate("#edf0f5","#32aae2")(friendCount / 10);
             });
-        d3.select("#total").html('总计有'+totalFriends+'个认识的人' );
+        d3.select("#total").html('总计收录有'+totalFriends+'个同学' );
         //'.涛涛，祥子坐标未知');
         /* draw states on id #statesvg */
         uStates.draw("#statesvg", uStatePaths, tooltipHtml);
