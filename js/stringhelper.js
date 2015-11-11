@@ -70,3 +70,15 @@ Array.prototype.remove=function(dx)
 String.prototype.replaceAll = function(s1,s2) {
     return this.replace(new RegExp(s1,"gm"),s2);
 };
+function formatTemplate(dta, tmpl) {
+    var format = {
+        name: function (x) {
+            return x
+        }
+    };
+    return tmpl.replace(/{(\w+)}/g, function (m1, m2) {
+        if (!m2)
+            return "";
+        return (format && format[m2]) ? format[m2](dta[m2]) : dta[m2];
+    });
+}
