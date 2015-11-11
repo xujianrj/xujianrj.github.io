@@ -297,3 +297,8 @@ img {  vertical-align: middle; }
         border: none;
     }
 }
+
+#booksContainer img{
+    width: 105px;
+    height: 140px;
+}
