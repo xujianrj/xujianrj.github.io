@@ -68,7 +68,7 @@
                 <img src="images/templatemo-bg-4.jpg" id="templatemo-page1-img" class="main-img inactive" alt="Home">
                 <img src="images/templatemo-bg-2.jpg" id="templatemo-page2-img" class="inactive" alt="Services">
                 <img src="images/templatemo-bg-3.jpg" id="templatemo-page3-img" class="inactive" alt="Awards">
-                <img src="images/templatemo-bg-5.jpg" id="templatemo-page4-img" class="inactive" alt="Company">
+                <!--<img src="images/templatemo-bg-5.jpg" id="templatemo-page4-img" class="inactive" alt="Company">-->
                 <img src="images/templatemo-bg-1.jpg" id="templatemo-page5-img" class="inactive" alt="Contact">
             </div>
         </div>
@@ -89,15 +89,13 @@
                 <div class="templatemo-content">
                     <section id="templatemo-page1-text" class="active">
                         <div class="col-sm-12 col-md-12" style="text-align: left;">
-                            <!--<h2>八零后的生活纪实</h2>-->
                             <h2>感受人生的<a href="#">力量</a></h2>
-                            <!--<p></p>-->
-                            <div style="width: 100%;vertical-align: top;">
-                                <a href="#templatemo-page3" onclick="onSectionButtonClick(this);">
-                                    <iframe src="package/friends/friends.html" frameborder="0" height="1000px" style="float: left;width: 60%;height: 1000px"/>
-                                    </iframe>
-                                    <!--<img src="images/slider/slide111.png" alt="Slide 1" style="float: left;width: 60%"/>-->
-                                </a>
+                            <div style="width: 100%;vertical-align: top;" id="frameContainer">
+                                <iframe id="map" name="map" src="package/friends/friends.html" frameborder="0"
+                                        width="100%" height="1000px" style="float: left;width: 60%;height: 1000px"/>
+                                </iframe>
+                                <!--<a href="#templatemo-page3" onclick="onSectionButtonClick(this);">-->
+                                <!--</a>-->
 
                                 <p style="vertical-align:top;float: left;width: 40% ;padding: 0 10px;"
                                    id="postContainer">
