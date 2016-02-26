@@ -319,6 +319,30 @@ img {  vertical-align: middle; }
         margin-left: -360px;
         -webkit-transform: scale(0.4,0.4); /* Safari and Chrome */
     }
+
+    #templatemo-page1-text img{
+        width: 360px;
+    }
+}
+
+@media (max-width:375px){
+    #postContainer{
+        float: none !important;
+        width: 100% !important;
+        margin-top: -200px;
+    }
+    #map{
+        float: none !important;
+        height: 540px !important;
+        width: 400% !important;
+        margin-top: -180px;
+        margin-left: -360px;
+        -webkit-transform: scale(0.4,0.4); /* Safari and Chrome */
+    }
+
+    #templatemo-page1-text img{
+        width: 320px;
+    }
 }
 
 @media (max-width:320px){
@@ -334,5 +358,9 @@ img {  vertical-align: middle; }
         margin-top: -200px;
         margin-left: -300px;
         -webkit-transform: scale(0.4,0.4); /* Safari and Chrome */
+    }
+
+    #templatemo-page1-text img{
+        width: 270px;
     }
 }
