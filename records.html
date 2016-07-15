@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+    <title>捐款记录</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=''/>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/templatemo_main.css">
+</head>
+<body>
+
+<div id="main-wrapper">
+    <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please
+        <a rel="nofollow" href="http://browsehappy.com">upgrade
+            your browser</a> or <a rel="nofollow" href="#/chromeframe/?redirect=true">activate Google Chrome Frame</a>
+        to
+        improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+        <!-- Static navbar -->
+        <div class="navbar navbar-default" role="navigation" style="display: none;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html" onclick="window.location.href='index.html'"><i
+                                class="fa"></i>Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-section">
+            <div class="image-container">
+                <img src="images/templatemo-bg-2.jpg" id="templatemo-page1-img" class="main-img inactive" alt="Home">
+            </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 40px;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 templatemo-content-wrapper">
+                <div class="templatemo-content">
+                    <section id="templatemo-page1-text" class="active" style="padding-left: 10px;padding-right: 10px;height: 1000px;">
+                        <p class="col-sm-12 col-md-12" style="text-align: left;"></p>
+
+                        <p id="recordContainer" style=""></p>
+
+
+                        <div id="slider" class="flexslider" style="display: none;">
+                            <ul class="slides">
+                            </ul>
+                        </div>
+                        <div id="carousel" class="flexslider" style="display: none;">
+                            <ul class="slides">
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="preloader" style="display: none;">
+    <div id="status">&nbsp;</div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<!--<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>-->
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/jquery.flexslider.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/templatemo_script.js"></script>
+
+<script src="js/stringhelper.js"></script>
+<script>
+
+    function loadPosts() {
+        var template = '<div>{0} 在{1} 捐助了 {2}元</div>';
+        $.get('records.json', function (res) {
+            $.each(res, function (index, item) {
+                $('#recordContainer').append(template.format(item.name, item.date, item.account));
+            });
+        })
+    }
+    var date = Date.parse('2016-08-08');
+    var now = new Date().getTime();
+    var diff=parseInt( (date-now)/1000);
+    setInterval(function(){
+        diff--;
+        $('#timeContainer').html(diff);
+    },1000);
+</script>
+</body>
+</html>
