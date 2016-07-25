@@ -62,6 +62,7 @@
                     <section id="templatemo-page1-text" class="active" style="padding-left: 10px;padding-right: 10px;height: 1000px;">
                         <p class="col-sm-12 col-md-12" style="text-align: left;"></p>
 
+                        <h3 id="totalCount">111</h3>
                         <p id="recordContainer" style=""></p>
 
 
@@ -97,18 +98,15 @@
     function loadPosts() {
         var template = '<div>{0} 在{1} 捐助了 {2}元</div>';
         $.get('records.json', function (res) {
+            var totalCount=0;
             $.each(res, function (index, item) {
+                totalCount+=parseInt( item.account);
                 $('#recordContainer').append(template.format(item.name, item.date, item.account));
             });
+            $('#totalCount').html("累计筹集"+totalCount+"元");
         })
+
     }
-    var date = Date.parse('2016-08-08');
-    var now = new Date().getTime();
-    var diff=parseInt( (date-now)/1000);
-    setInterval(function(){
-        diff--;
-        $('#timeContainer').html(diff);
-    },1000);
 </script>
 </body>
 </html>
