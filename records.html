@@ -99,11 +99,18 @@
         var template = '<div>{0} 在{1} 捐助了 {2}元</div>';
         $.get('records.json', function (res) {
             var totalCount=0;
+            var validNumber=0;
             $.each(res, function (index, item) {
-                totalCount+=parseInt( item.account);
-                $('#recordContainer').append(template.format(item.name, item.date, item.account));
+                if(!isNaN(item.account)){
+                    totalCount+=parseInt( item.account);
+                    validNumber+=1;
+                    $('#recordContainer').append(template.format(item.name, item.date, item.account));
+                }
+
             });
-            $('#totalCount').html("累计筹集"+totalCount+"元");
+            console.log(validNumber);
+            $('#totalCount').html("累计筹集"+totalCount+"元"+"&nbsp;累计联系人数:"+res.length);
+//            $('#totalCount').html("累计筹集"+totalCount+"元");
         })
 
     }
