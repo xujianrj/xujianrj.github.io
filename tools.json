@@ -58,9 +58,15 @@
         "url": "http://artsmesh.io"
       },
       {
+        "name": "软件项目",
+        "class":"btn-warning",
+        "url": "product.html"
+      },
+      {
         "name": "D3数据图",
         "url": "package/mydata"
       }
+
     ]
   }
 ]
